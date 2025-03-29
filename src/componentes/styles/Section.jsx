@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 //Todas as Sections
 function Section(props) {
   return (
-    <section className="col-span-12 min-w-20 text-center">
+    <section className="col-span-12 m-2 text-center md:m-5">
       {props.children}
     </section>
   );

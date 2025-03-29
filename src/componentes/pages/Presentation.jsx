@@ -6,7 +6,7 @@ function Presentation() {
     <Section>
       <section
         className="col-span-12 m-auto gap-7
-        md:flex border border-red-400"
+        md:flex"
       >
         <figure
           className="m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110

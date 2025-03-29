@@ -7,7 +7,7 @@ function Skills() {
     <Section>
       <div
         className="col-span-12 gap-7 m-auto
-        md:flex border border-red-400"
+        md:flex"
       >
         <div className="text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
