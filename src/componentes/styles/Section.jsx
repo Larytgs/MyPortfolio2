@@ -2,7 +2,11 @@ import { motion } from "framer-motion";
 
 //Todas as Sections
 function Section(props) {
-  return <section className="col-span-12 min-w-20 ">{props.children}</section>;
+  return (
+    <section className="col-span-12 min-w-20 text-center">
+      {props.children}
+    </section>
+  );
 }
 
 //Todos os textos
@@ -15,7 +19,7 @@ function Text(props) {
 //skill-wrapper as divs da ul - Skills.jsx
 function SkillWrapper(props) {
   return (
-    <div className="flex items-center justify-between mt-7 mb-3">
+    <div className="col-span-12 flex items-center justify-between mt-7 mb-3">
       {props.children}
     </div>
   );

@@ -4,7 +4,7 @@ import Subtitulo from "../styles/Subtitulo";
 function Projects() {
   return (
     <Section>
-      <section className="text-center m-auto">
+      <section className="col-span-12 gap-7 my-0 mx-5">
         <Subtitulo>Projetos</Subtitulo>
 
         <Project className="max-sm:mb-[-2%]">

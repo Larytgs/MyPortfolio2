@@ -6,12 +6,12 @@ function Skills() {
   return (
     <Section>
       <div
-        className="flex gap-7 max-lg:block max-lg:text-center 
-      max-lg:my-0 max-mx:ml-12"
+        className="col-span-12 gap-7 m-auto
+        md:flex border border-red-400"
       >
-        <div className="m-auto text-center">
+        <div className="text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
-          <Text className="text-lg text-left m-5">
+          <Text>
             Como Desenvolvedor Web Front-end, acredito na importância do
             aprendizado contínuo e estou constantemente aprimorando minhas
             habilidades.
@@ -53,9 +53,11 @@ function Skills() {
             </li>
           </ul>
         </div>
+
         <figure
-          className="w-[500px] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
-        max-md:w-[450px]"
+          className="w-[310px] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
+          md:w-[450px] 
+          lg:w-[550px]"
         >
           <img src="/img/html-css-js.jpg" alt="" />
         </figure>

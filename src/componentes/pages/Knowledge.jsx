@@ -8,7 +8,7 @@ function Knowledge() {
       <section className="col-span-12 text-center m-auto min-h-screen">
         <Subtitulo>Conhecimentos</Subtitulo>
         {/* todos os cards mais o "ver mais"*/}
-        <div className="col-span-12 mt-5 justify-center items-center">
+        <div className="mt-5 justify-center items-center">
           {/* todos os cards */}
           <div
             className="grid grid-cols-3 gap-4

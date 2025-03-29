@@ -4,18 +4,20 @@ import Section, { Text } from "../styles/Section";
 function Presentation() {
   return (
     <Section>
-      <section className="flex gap-7 max-lg:block max-lg:text-center ">
-        <figure>
-          <img
-            className="w-[500px] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
-            "
-            src="/img/Tendencias-de-tecnologia-2023-Capa.jpg"
-            alt=""
-          />
+      <section
+        className="col-span-12 m-auto gap-7
+        md:flex border border-red-400"
+      >
+        <figure
+          className="m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
+          md:w-[450px] 
+          lg:w-[550px]"
+        >
+          <img src="/img/Tendencias-de-tecnologia-2023-Capa.jpg" alt="" />
         </figure>
 
-        <div className="m-auto text-center">
-          <Subtitulo className="max-lg:mt-5">
+        <div className="text-center">
+          <Subtitulo className="mt-6 md:mt-0">
             Um pequeno palco em meio à imensidão cósmica.
           </Subtitulo>
           <Text>
@@ -26,18 +28,24 @@ function Presentation() {
             <br />
             Atualmente estou finalizando Pós-Graduação em Front-end.
           </Text>
-          <ul className="flex justify-evenly text-center">
+          <ul className="flex gap-4 justify-evenly text-left">
             <li>
-              <p className="text-2xl underline underline-offset-4 text-left">
+              <p
+                className="underline underline-offset-4
+              sm:text-2xl"
+              >
                 Nome
               </p>
-              <span className="text-lg">Laryssa Tortato Gomes da Silva</span>
+              <span className="sm:text-lg">Laryssa Tortato Gomes da Silva</span>
             </li>
             <li>
-              <p className="text-2xl underline underline-offset-4 text-left">
+              <p
+                className="underline underline-offset-4
+              sm:text-2xl"
+              >
                 Email
               </p>
-              <span className="text-lg">siteslarytgs@gmail.com</span>
+              <span className="sm:text-lg">siteslarytgs@gmail.com</span>
             </li>
           </ul>
         </div>
