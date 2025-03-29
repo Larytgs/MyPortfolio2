@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwindcss * {
+  font-family: "Times New Roman", Times, serif;
+}
+
+:root {
+  --corturquesa: #6ad0ff;
+  --fundoBlack: #000000;
+  --headerFotter: #181717;
+  --fundoDestaque: #797676;
+  --fundoDestaque2: #333;
+
+  --bg-eerie-black: hsla(0, 0%, 13%, 1);
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+
+  --section-spacing: 70px;
+
+  --border-white: hsla(0, 0%, 100%, 1);
+  --border-light-gray: hsla(240, 1%, 83%, 1);
+  --border-gainsboro: hsla(220, 13%, 91%, 1);
+  --border-eerie-black: hsla(0, 0%, 13%, 1);
+  --border-smoky-black: hsla(0, 0%, 6%, 1);
+
+  --transition-1: 0.25s ease;
+  --transition-2: 0.5s ease;
+  --transition-3: 1000ms cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  background-color: var(--fundoBlack);
+  color: white;
+  scroll-behavior: smooth; /*rolagem suave*/
+  width: 100vw; /* 100% da largura da viewport */
+}
+
+/*Remove o cursor padrão */
+body {
+  cursor: none;
+}
+/* Estilizando o cursor personalizado */
+.cursor {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: help;
+  background-color: #00ffff80; /* Cor turquesa com transparência */
+  position: absolute;
+  pointer-events: none; /* Evita interferência com cliques */
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s linear;
+}
+
+/*Header.jsx*/
+.header {
+  text-align: center;
+  background-color: var(--headerFotter);
+  padding: 12px;
+
+  position: sticky; /*grudavel*/
+  top: -1px;
+  z-index: 1; /*Assim, ele ficará na frente de tds*/
+
+  display: flex; /*coloquei na lateral os icones*/
+  align-items: center; /*centralizar os icones*/
+  justify-content: space-between; /*espaçamento igual*/
+  cursor: initial;
+}
+.h1Header {
+  color: var(--corturquesa);
+  font-family: "cabeçalho";
+  font-size: 2em;
+  font-weight: 800;
+}
+
+/*Firstmain.jsx*/
+.minhaft {
+  border-radius: 20% 10px;
+  border: 1px solid var(--corturquesa);
+  filter: brightness(70%); /*deixar a imagem mais escura*/
+  animation: flutuar 2.5s infinite backwards;
+}
+@keyframes flutuar {
+  0% {
+    transform: translateY(1rem); /* Move para baixo */
+  }
+  50% {
+    transform: translateY(-0.5rem); /* Move para cima */
+  }
+  100% {
+    transform: translateY(1rem); /* Move para baixo */
+  }
+}
+
+/*H3 dos Projetos - Projects.jsx*/
+.card-title {
+  position: absolute;
+}
+.service-proj:is(:hover, :focus-visible) .H3 {
+  opacity: 1; /*mover o texto aparecer em cima da imagem*/
+  transform: translate(-50%, -200%);
+  width: 220px;
+}
+.service-proj:is(:hover, :focus-visible) .card-proj {
+  opacity: 0.1; /*para sumir a imagem, enquanto mostra o texto*/
+}
+
+@media all and (max-width: 1115px) {
+  .cursor {
+    display: none;
+  }
+}
