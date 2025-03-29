@@ -3,7 +3,7 @@ import "./StyleH.css";
 
 function Header() {
   return (
-    <div className="header text-2xl text-[#6ad0ff] font-bold sm:text-3xl">
+    <div className="header text-3xl text-[#6ad0ff] font-bold sm:text-4xl">
       <Link to="/">
         <h1 className="h1Header">Dev.Tgs</h1>
       </Link>
