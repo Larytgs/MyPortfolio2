@@ -2,14 +2,7 @@ import { motion } from "framer-motion";
 
 //Todas as Sections
 function Section(props) {
-  return (
-    <section
-      className=" col-span-12 mt[1%] mb-[1%] p-7 align-middle
-    max-md:p-5"
-    >
-      {props.children}
-    </section>
-  );
+  return <section className="col-span-12 min-w-20 ">{props.children}</section>;
 }
 
 //Todos os textos
@@ -29,7 +22,7 @@ function SkillWrapper(props) {
 }
 
 //Cards as divs do conhecimentos - Knowledge.jsx
-function Cards(props) {
+function Card(props) {
   return (
     <motion.div
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
@@ -88,4 +81,4 @@ function TitleH3(props) {
 }
 
 export default Section;
-export { Text, SkillWrapper, Cards, H3, P, TitleH3, Project };
+export { Text, SkillWrapper, Card, H3, P, TitleH3, Project };

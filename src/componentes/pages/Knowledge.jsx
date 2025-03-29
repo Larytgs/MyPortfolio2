@@ -1,19 +1,22 @@
-import Section, { Cards, H3, P } from "../styles/Section";
+import Section, { Card, H3, P } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 
 //Conhecimentos
 function Knowledge() {
   return (
     <Section>
-      <section className="text-center m-auto min-h-screen">
+      <section className="col-span-12 text-center m-auto min-h-screen">
         <Subtitulo>Conhecimentos</Subtitulo>
-        <div className="mt-5 justify-center items-center">
+        {/* todos os cards mais o "ver mais"*/}
+        <div className="col-span-12 mt-5 justify-center items-center">
+          {/* todos os cards */}
           <div
             className="grid grid-cols-3 gap-4
             max-lg:col-span-2
             max-md:block"
           >
-            <Cards>
+            {/* cada card o h3 e o p */}
+            <Card>
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/html5-original.svg"
@@ -24,8 +27,8 @@ function Knowledge() {
                 HTML5 é uma linguagem de marcação de hipertexto, que usamos para
                 marcar os elementos da página e construí-la.
               </P>
-            </Cards>
-            <Cards>
+            </Card>
+            <Card>
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/css3-original.svg"
@@ -36,8 +39,8 @@ function Knowledge() {
                 CSS3 é uma linguagem de estilo usada para descrever a
                 apresentação dos elementos da página os estilizando.{" "}
               </P>
-            </Cards>
-            <Cards>
+            </Card>
+            <Card>
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/javascript-original.svg"
@@ -49,8 +52,8 @@ function Knowledge() {
                 desenvolvimento web para descrever funcionalidades e
                 comportamentos da página.
               </P>
-            </Cards>
-            <Cards>
+            </Card>
+            <Card>
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/git-original.svg"
@@ -61,8 +64,8 @@ function Knowledge() {
                 Git é um sistema de controle de versão distribuído amplamente
                 utilizado no desenvolvimento de software.
               </P>
-            </Cards>
-            <Cards>
+            </Card>
+            <Card>
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/github-original.png"
@@ -74,8 +77,8 @@ function Knowledge() {
                 compartilhar e colaborar em projetos de software. É uma
                 ferramenta muito utilizada por desenvolvedores.
               </P>
-            </Cards>
-            <Cards>
+            </Card>
+            <Card>
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/postman-original.svg"
@@ -87,7 +90,7 @@ function Knowledge() {
                 Ele é usado por desenvolvedores para criar, testar, documentar e
                 compartilhar APIs.
               </P>
-            </Cards>
+            </Card>
             <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[100%] m-auto align-middle p-4 text-left">
               <img
                 className="w-16"
