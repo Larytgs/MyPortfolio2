@@ -22,12 +22,15 @@ function Firstmain() {
     <>
       <Header />
       <section className="grid grid-cols-12 mx-auto mb-6 p-5 mt-14">
-        <section className="col-span-12 flex justify-between">
+        <section
+          className="col-span-12 flex justify-between 
+        max-lg:flex-col-reverse max-lg:text-center"
+        >
           <article className="m-auto text-center">
             <article>
               <h1
                 className="text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
-                "
+                max-lg:text-[2em] max-lg:mt-[10%]"
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
@@ -73,7 +76,9 @@ function Firstmain() {
         {/* Github */}
         <section className="col-span-12">
           <div
-            className="justify-center flex mt-28 gap-2 max-md:flex-1 max-md:mt-10
+            className="justify-center flex mt-28 gap-2 
+            max-md:flex-1 max-md:mt-8 
+            max-sm:flex-wrap
           "
           >
             <img
@@ -114,7 +119,7 @@ function Firstmain() {
         </div>
 
         {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
-        <div className="mt-10 max-sm:mt-4">
+        <div className="col-span-12 mt-10 max-sm:mt-4">
           {visibleSection === "presentation" && <Presentation />}
           {visibleSection === "skills" && <Skills />}
           {visibleSection === "knowledge" && <Knowledge />}
