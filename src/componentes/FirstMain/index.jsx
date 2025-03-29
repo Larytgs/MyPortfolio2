@@ -21,24 +21,22 @@ function Firstmain() {
   return (
     <>
       <Header />
-      <section className="mb-6 p-5 mt-14">
-        <section
-          className="flex justify-between 
-        max-lg:flex-col-reverse max-lg:text-center"
-        >
-          <article className="m-auto p-5 text-center">
+      <section className="grid grid-cols-12 mx-auto mb-6 p-5 mt-14">
+        <section className="col-span-12 flex justify-between">
+          <article className="m-auto text-center">
             <article>
               <h1
                 className="text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
-                max-lg:text-[2em] max-lg:mt-[5%]"
+                "
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.7em] font-thin text-[#797676] max-lg:text-[0.8em]">
+                <span className="text-[0.7em] font-thin text-[#797676] ">
                   Desenvolvedora Web Front end
                 </span>
               </h1>
               <br />
+              {/* Down e "Transformando sonhos" */}
               <div className="flex gap-4 items-center max-lg:block">
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 rounded-xl"
@@ -59,7 +57,7 @@ function Firstmain() {
               </div>
             </article>
           </article>
-
+          {/* Minha foto */}
           <figure className="relative m-auto max-md:text-center">
             <img
               className="minhaft w-[350px] max-md:w-[320px]"
@@ -73,10 +71,10 @@ function Firstmain() {
         </section>
 
         {/* Github */}
-        <section>
+        <section className="col-span-12">
           <div
             className="justify-center flex mt-28 gap-2 max-md:flex-1 max-md:mt-10
-          max-sm:flex-wrap"
+          "
           >
             <img
               className="h-[170px]"
@@ -90,7 +88,7 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div className="mt-14">
+        <div className="col-span-12 mt-14">
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
