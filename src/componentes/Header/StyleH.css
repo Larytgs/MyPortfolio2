@@ -13,8 +13,5 @@
   cursor: initial;
 }
 .h1Header {
-  color: var(--corturquesa);
   font-family: "cabeçalho";
-  font-size: 2em;
-  font-weight: 800;
 }
