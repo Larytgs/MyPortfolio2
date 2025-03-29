@@ -11,9 +11,7 @@ function Section(props) {
 
 //Todos os textos
 function Text(props) {
-  return (
-    <p className="text-lg text-left pt-5 pb-5 pl-0 pr-0">{props.children}</p>
-  );
+  return <p className="text-lg text-left py-5 px-0">{props.children}</p>;
 }
 
 //skill-wrapper as divs da ul - Skills.jsx
