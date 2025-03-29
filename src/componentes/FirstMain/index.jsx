@@ -97,7 +97,7 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div className="block col-span-2 mt-14">
+        <div className="col-span-2 mt-14">
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
