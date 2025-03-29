@@ -1,0 +1,20 @@
+.header {
+  text-align: center;
+  background-color: var(--headerFotter);
+  padding: 12px;
+
+  position: sticky; /*grudavel*/
+  top: -1px;
+  z-index: 1; /*Assim, ele ficará na frente de tds*/
+
+  display: flex; /*coloquei na lateral os icones*/
+  align-items: center; /*centralizar os icones*/
+  justify-content: space-between; /*espaçamento igual*/
+  cursor: initial;
+}
+.h1Header {
+  color: var(--corturquesa);
+  font-family: "cabeçalho";
+  font-size: 2em;
+  font-weight: 800;
+}
