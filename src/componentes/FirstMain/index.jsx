@@ -29,8 +29,9 @@ function Firstmain() {
           <article className="m-auto text-center">
             <article>
               <h1
-                className="text-[2.8em] mb-5 text-left font-serif tracking-tight leading-none 
-                max-lg:text-[2em] max-lg:mt-[10%]"
+                className="text-[2em] text-center mt-[10%] mb-5 font-serif tracking-tight leading-none 
+                md:text-[2.8em] 
+                lg:text-left"
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
@@ -40,9 +41,9 @@ function Firstmain() {
               </h1>
               <br />
               {/* Down e "Transformando sonhos" */}
-              <div className="flex gap-4 items-center max-lg:block">
+              <div className="block gap-4 text-center lg:items-center lg:flex">
                 <a
-                  className="inline-flex gap-2 bg-[#181717] p-3 rounded-xl"
+                  className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl"
                   href="../../public/img/CurriculoLaryssa.pdf"
                   target="_blank"
                 >
@@ -53,7 +54,10 @@ function Firstmain() {
                     alt="Curriculo"
                   />
                 </a>
-                <p className="block w-[450px] font-serif text-[1.2em] max-lg:text-[1.1em] max-lg:mt-4">
+                <p
+                  className="w-[100%] mt-4 m-auto font-serif text-lg 
+                md:w-[450px] lg:mt-0"
+                >
                   ”Transformando sonhos em conquistas; linhas de código em
                   experiências memoráveis.”
                 </p>
@@ -63,7 +67,7 @@ function Firstmain() {
           {/* Minha foto */}
           <figure className="relative m-auto max-md:text-center">
             <img
-              className="minhaft w-[350px] max-md:w-[320px]"
+              className="minhaft w-[320px] md:w-[350px]"
               src="/img/logo/minhafoto2.jpg"
               alt="minha foto"
             />
@@ -93,7 +97,7 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div className="col-span-12 mt-14">
+        <div className="block col-span-2 mt-14">
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
