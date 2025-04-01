@@ -29,7 +29,7 @@ function Firstmain() {
           <article className="m-auto text-center">
             <article>
               <h1
-                className="text-[2em] text-center mt-[10%] mb-5 font-serif tracking-tight leading-none 
+                className="text-[2em] text-center mt-[10%] mb-5 mx-3 font-serif tracking-tight leading-none 
                 md:text-[2.8em] 
                 lg:text-left"
               >
