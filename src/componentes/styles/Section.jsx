@@ -30,8 +30,7 @@ function Card(props) {
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
-      className="ml-3 bg-[#333] rounded-2xl w-[400px] h-[300px] m-auto align-middle p-4 text-left
-      "
+      className="ml-3 bg-[#333] rounded-2xl h-[100%] my-3 align-middle p-4 text-left"
     >
       {props.children}
     </motion.div>

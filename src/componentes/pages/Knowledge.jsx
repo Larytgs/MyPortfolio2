@@ -91,7 +91,7 @@ function Knowledge() {
                 compartilhar APIs.
               </P>
             </Card>
-            <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[100%] m-auto align-middle p-4 text-left">
+            <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[100%] my-3 align-middle p-4 text-left">
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/vscode-original.svg"
