@@ -97,7 +97,7 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div className="col-span-2 mt-14">
+        <div className="mt-14 text-center">
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
@@ -123,7 +123,7 @@ function Firstmain() {
         </div>
 
         {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
-        <div className="col-span-12 mt-10 max-sm:mt-4">
+        <div className="col-span-12 mt-4 sm:mt-10 text-center">
           {visibleSection === "presentation" && <Presentation />}
           {visibleSection === "skills" && <Skills />}
           {visibleSection === "knowledge" && <Knowledge />}

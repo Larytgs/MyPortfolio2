@@ -14,7 +14,7 @@ function Ul(props) {
 function Lista(props) {
   return (
     <li
-      className=" bg-white text-black
+      className="bg-white text-black
       sm:inline-block"
     >
       {props.children}
