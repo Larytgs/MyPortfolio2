@@ -55,7 +55,7 @@ function Skills() {
         </div>
 
         <figure
-          className="w-[310px] m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
+          className="m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
           md:w-[450px] 
           lg:w-[550px]"
         >
