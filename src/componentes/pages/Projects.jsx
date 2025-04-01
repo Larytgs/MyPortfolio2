@@ -7,7 +7,7 @@ function Projects() {
       <section className="col-span-12 gap-7 my-0 mx-5">
         <Subtitulo>Projetos</Subtitulo>
 
-        <Project className="max-sm:mb-[-2%]">
+        <Project className="mb-[-2%]">
           <div className="flex-auto text-center m-3 cursor-wait">
             <div className="service-proj relative">
               <div className="card-proj">
