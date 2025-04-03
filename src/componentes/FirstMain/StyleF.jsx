@@ -3,8 +3,8 @@
 function Ul(props) {
   return (
     <ul
-      className="items-center gap-2
-      sm:flex sm:auto"
+      className="text-center gap-1 columns-2 
+      lg:flex lg:flex-1 lg:justify-center"
     >
       {props.children}
     </ul>
@@ -14,8 +14,8 @@ function Ul(props) {
 function Lista(props) {
   return (
     <li
-      className="bg-white text-black
-      sm:inline-block"
+      className="bg-white text-black m-0.5
+      lg:flex lg:flex-1"
     >
       {props.children}
     </li>
@@ -26,10 +26,9 @@ function Button(props) {
   return (
     <button
       onClick={props.onClick}
-      className="bg-purple-600 text-[1.4em] py-2 px-3 
-      sm:bg-green-600 sm:text-[1.5em] sm:py-3 sm:px-9
-      md:bg-yellow-300 md:text-2xl md:py-3 md:px-16
-      lg:bg-red-300 lg:w-[100%]
+      className="py-2 px-3 text-[1.4em]
+      sm:px-[35px] sm:text-[1.5em] sm:w-[100%] sm:py-[10px]
+      md:text-3xl md:py-[10px] md:px-[20px]
       "
     >
       {props.children}
