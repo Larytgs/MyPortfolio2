@@ -3,7 +3,7 @@
 function Ul(props) {
   return (
     <ul
-      className="text-center gap-1 columns-2 
+      className="text-center gap-1 grid grid-cols-2 items-center
       lg:flex lg:flex-1 lg:justify-center"
     >
       {props.children}
@@ -14,7 +14,7 @@ function Ul(props) {
 function Lista(props) {
   return (
     <li
-      className="bg-white text-black m-0.5
+      className="bg-white text-black m-0.5 flex items-center justify-center
       lg:flex lg:flex-1"
     >
       {props.children}
