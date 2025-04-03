@@ -26,7 +26,7 @@ function Button(props) {
   return (
     <button
       onClick={props.onClick}
-      className="py-2 px-3 text-[1.4em]
+      className="py-2 text-[1.4em] text-center
       sm:px-[35px] sm:text-[1.5em] sm:w-[100%] sm:py-[10px]
       md:text-3xl md:py-[10px] md:px-[20px]
       "
