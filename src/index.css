@@ -99,7 +99,7 @@ body {
   .service-proj:is(:hover, :focus-visible) .H3 {
     opacity: 1; /*mover o texto aparecer em cima da imagem*/
     transform: translate(-50%, -140%);
-    width: 280px;
+    width: 260px;
     font-size: larger;
   }
 }
