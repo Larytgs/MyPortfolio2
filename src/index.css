@@ -82,8 +82,8 @@ body {
 }
 .service-proj:is(:hover, :focus-visible) .H3 {
   opacity: 1; /*mover o texto aparecer em cima da imagem*/
-  transform: translate(-50%, -150%);
-  width: 230px;
+  transform: translate(-50%, -200%);
+  width: 300px;
 }
 .service-proj:is(:hover, :focus-visible) .card-proj {
   opacity: 0.1; /*para sumir a imagem, enquanto mostra o texto*/
@@ -92,5 +92,14 @@ body {
 @media all and (max-width: 1115px) {
   .cursor {
     display: none;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .service-proj:is(:hover, :focus-visible) .H3 {
+    opacity: 1; /*mover o texto aparecer em cima da imagem*/
+    transform: translate(-50%, -140%);
+    width: 280px;
+    font-size: larger;
   }
 }
