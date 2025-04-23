@@ -73,7 +73,7 @@ function Projects() {
               <div className="card-proj">
                 <img
                   className="rounded-2xl w-[500px]"
-                  src="/public/img/projetos/siteBiscoitosDecorados .png"
+                  src="/img/projetos/siteBiscoitosDecorados .png"
                   alt="siteBiscoitosDecorados"
                 />
               </div>
