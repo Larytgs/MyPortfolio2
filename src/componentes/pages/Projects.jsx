@@ -1,4 +1,4 @@
-import Section, { TitleH3, Project } from "../styles/Section";
+import Section, { TitleH3, TitleH32, Project } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 
 function Projects() {
@@ -69,11 +69,11 @@ function Projects() {
             </div>
           </div>
           <div className="flex-auto text-center m-3 cursor-wait">
-            <div className="service-proj relative">
+            <div className="service-proj relative group">
               <div className="card-proj">
                 <img
                   className="rounded-2xl w-[500px]"
-                  src="/img/projetos/siteBiscoitosDecorados .png"
+                  src="/public/img/projetos/siteBiscoitosDecorados.png"
                   alt="siteBiscoitosDecorados"
                 />
               </div>
@@ -82,7 +82,9 @@ function Projects() {
                 href="https://larytgs.github.io/site-biscoitos-decorados/"
                 target="_blank"
               >
-                <TitleH3 className="H3">Site Biscoitos Decorados.</TitleH3>
+                <TitleH32 className="biscoitos">
+                  Site Biscoitos Decorados.
+                </TitleH32>
               </a>
             </div>
           </div>

@@ -80,6 +80,17 @@ function TitleH3(props) {
     </h3>
   );
 }
+function TitleH32(props) {
+  return (
+    <h3
+      className="absolute left-1/2 top-1/2 text-center text-[#6ad0ff] text-xl opacity-0 transform -translate-x-1/2 -translate-y-[80%] transition duration-250 ease-in-out group-hover:opacity-100 group-hover:-translate-y-[400%] w-[300px]
+    
+    max-[400px]:group-hover:-translate-y-[250%]"
+    >
+      {props.children}
+    </h3>
+  );
+}
 
 export default Section;
-export { Text, SkillWrapper, Card, H3, P, TitleH3, Project };
+export { Text, SkillWrapper, Card, H3, P, TitleH3, TitleH32, Project };

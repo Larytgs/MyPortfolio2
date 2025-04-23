@@ -85,6 +85,11 @@ body {
   transform: translate(-50%, -200%);
   width: 300px;
 }
+.service-proj:is(:hover, :focus-visible) .biscoitos {
+  opacity: 1; /*mover o texto aparecer em cima da imagem*/
+  transform: translate(-50%, -350%);
+  width: 300px;
+}
 .service-proj:is(:hover, :focus-visible) .card-proj {
   opacity: 0.1; /*para sumir a imagem, enquanto mostra o texto*/
 }
