@@ -1,0 +1,96 @@
+.shooting-star {
+  position: absolute;
+  width: 2px;
+  height: 90px;
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.541),
+    rgba(255, 255, 255, 0)
+  );
+  animation: shooting 5s linear infinite;
+}
+
+/* Estrelas fixas */
+.stars,
+.stars2,
+.stars3 {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+  box-shadow: 50px 200px white, 100px 300px white, 150px 400px white,
+    200px 500px white, 250px 600px white, 300px 700px white, 350px 800px white,
+    400px 900px white, 450px 1000px white, 500px 1100px white,
+    550px 1200px white, 600px 1300px white, 650px 1400px white,
+    700px 1500px white, 750px 1600px white, 800px 1700px white,
+    850px 1800px white, 900px 1900px white;
+}
+
+/* Estrelas em camadas diferentes */
+.stars2 {
+  transform: scale(1.5);
+  opacity: 0.5;
+}
+
+.stars3 {
+  transform: scale(2);
+  opacity: 0.3;
+}
+
+/* Cada estrela começa em momentos diferentes */
+.shooting-star:nth-child(4) {
+  left: 20%;
+  animation-delay: 2s;
+}
+.shooting-star:nth-child(5) {
+  left: 40%;
+  animation-delay: 4s;
+}
+.shooting-star:nth-child(6) {
+  left: 60%;
+  animation-delay: 6s;
+}
+.shooting-star:nth-child(7) {
+  left: 80%;
+  animation-delay: 8s;
+}
+.shooting-star:nth-child(8) {
+  left: 100%;
+  animation-delay: 8s;
+}
+.shooting-star:nth-child(9) {
+  left: 30%;
+  animation-delay: 1s;
+}
+.shooting-star:nth-child(10) {
+  left: 70%;
+  animation-delay: 3s;
+}
+.shooting-star:nth-child(11) {
+  left: 50%;
+  animation-delay: 5s;
+}
+.shooting-star:nth-child(12) {
+  left: 90%;
+  animation-delay: 7s;
+}
+.shooting-star:nth-child(13) {
+  left: 10%;
+  animation-delay: 9s;
+}
+.shooting-star:nth-child(14) {
+  left: 7%;
+  animation-delay: 9s;
+}
+
+/* Animação de estrela cadente */
+@keyframes shooting {
+  0% {
+    transform: translate(0, 0) rotate(225deg); /* rotação 315º */
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-600px, 600px) rotate(225deg); /* deslizando pra baixo/direita */
+    opacity: 0;
+  }
+}

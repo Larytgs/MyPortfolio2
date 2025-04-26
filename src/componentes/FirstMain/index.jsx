@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Presentation, Skills, Knowledge, Projects } from "../pages/index.jsx";
 import Button, { Lista, Ul } from "./StyleF.jsx";
 import "../../index.css";
+import StarryBackground from "../Star/StarryBackground.jsx";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
@@ -21,7 +22,8 @@ function Firstmain() {
   return (
     <>
       <Header />
-      <section className="grid grid-cols-12 mx-auto mb-6 p-5 mt-14">
+      <StarryBackground />
+      <section className="relative grid grid-cols-12 mx-auto mb-6 p-5 mt-14">
         <section
           className="col-span-12 flex justify-between 
         max-lg:flex-col-reverse max-lg:text-center"
