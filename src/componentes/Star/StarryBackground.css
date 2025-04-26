@@ -7,8 +7,9 @@
     rgba(255, 255, 255, 0.541),
     rgba(255, 255, 255, 0)
   );
-  top: -10%;
+  top: -5%;
   left: 50%;
+  right: -5%;
   animation: shooting 5s linear infinite;
 }
 
