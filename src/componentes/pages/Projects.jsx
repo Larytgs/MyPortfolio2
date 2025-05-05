@@ -107,9 +107,26 @@ function Projects() {
                 target="_blank"
               >
                 <TitleH3 className="H3">
-                  Site da Netflix ainda em andamento.
+                  Site da Netflix, ainda em andamento.
                 </TitleH3>
               </a>
+            </div>
+          </div>
+
+          <div className="flex-auto text-center m-3 cursor-wait">
+            <div className="service-proj relative">
+              <div className="card-proj">
+                <img
+                  className="rounded-2xl w-[500px]"
+                  src="/img/projetos/emBreve.png"
+                  alt="siteVeterinaria"
+                />
+              </div>
+              <a
+                className="card-title cursor-wait"
+                href="#"
+                target="_blank"
+              ></a>
             </div>
           </div>
         </Project>
