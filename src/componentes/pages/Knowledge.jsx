@@ -127,8 +127,8 @@ function Knowledge() {
               />
               <H3>VSCode</H3>
               <P>
-                Visual Studio Code (VS Code) é um editor de código-fonte
-                gratuito e de código aberto desenvolvido pela Microsoft.
+                Visual Studio Code é um editor de código-fonte gratuito e de
+                código aberto desenvolvido pela Microsoft.
               </P>
             </Card>
           </div>
