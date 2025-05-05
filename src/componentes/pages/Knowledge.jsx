@@ -125,7 +125,7 @@ function Knowledge() {
                 src="/img/logo/conhecimentos/vscode-original.svg"
                 alt="VSCODE"
               />
-              <H3>VSCODE</H3>
+              <H3>VSCode</H3>
               <P>
                 Visual Studio Code (VS Code) é um editor de código-fonte
                 gratuito e de código aberto desenvolvido pela Microsoft.

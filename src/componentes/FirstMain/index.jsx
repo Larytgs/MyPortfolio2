@@ -45,7 +45,8 @@ function Firstmain() {
               {/* Down e "Transformando sonhos" */}
               <div className="block gap-4 text-center lg:items-center lg:flex">
                 <a
-                  className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl"
+                  className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl cursor-none
+                   md:transition-transform md:duration-500 md:hover:scale-110"
                   href="../../public/img/CurriculoLaryssa.pdf"
                   target="_blank"
                 >
