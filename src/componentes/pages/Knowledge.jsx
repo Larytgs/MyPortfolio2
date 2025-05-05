@@ -62,7 +62,7 @@ function Knowledge() {
               />
               <H3>GIT</H3>
               <P>
-                Git é um sistema de controle de versão distribuído amplamente
+                É um sistema de controle de versão distribuído amplamente
                 utilizado no desenvolvimento de software.
               </P>
             </Card>
@@ -87,8 +87,8 @@ function Knowledge() {
               />
               <H3>Postman</H3>
               <P>
-                O Postman é uma plataforma de desenvolvimento e teste de APIs.
-                Ele é usado por desenvolvedores para criar, testar, documentar e
+                É uma plataforma de desenvolvimento e teste de APIs. Ele é usado
+                por desenvolvedores para criar, testar, documentar e
                 compartilhar APIs.
               </P>
             </Card>
@@ -102,6 +102,20 @@ function Knowledge() {
               <P>
                 React é uma biblioteca JavaScript de código aberto utilizada
                 para construir interfaces de usuário (UI) para aplicações web.
+              </P>
+            </Card>
+            <Card>
+              <img
+                className="w-16"
+                src="/public/img/logo/conhecimentos/tailwindcss-original.svg"
+                alt="VSCODE"
+              />
+              <H3>Tailwindcss</H3>
+              <P>
+                É um framework CSS voltado para utilidade, repleto de classes
+                como <strong>flex, pt-4, text-center</strong> e rotate-90 que
+                podem ser compostas para criar qualquer design, diretamente na
+                sua marcação.
               </P>
             </Card>
             <Card>
