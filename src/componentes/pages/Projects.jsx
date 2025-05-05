@@ -28,6 +28,7 @@ function Projects() {
               </a>
             </div>
           </div>
+
           <div className="flex-auto text-center m-3 cursor-wait">
             <div className="service-proj relative">
               <div className="card-proj">
@@ -48,6 +49,7 @@ function Projects() {
               </a>
             </div>
           </div>
+
           <div className="flex-auto text-center m-3 cursor-wait">
             <div className="service-proj relative">
               <div className="card-proj">
@@ -68,6 +70,7 @@ function Projects() {
               </a>
             </div>
           </div>
+
           <div className="flex-auto text-center m-3 cursor-wait">
             <div className="service-proj relative group">
               <div className="card-proj">
@@ -85,6 +88,27 @@ function Projects() {
                 <TitleH32 className="biscoitos">
                   Site Biscoitos Decorados.
                 </TitleH32>
+              </a>
+            </div>
+          </div>
+
+          <div className="flex-auto text-center m-3 cursor-wait">
+            <div className="service-proj relative">
+              <div className="card-proj">
+                <img
+                  className="rounded-2xl w-[500px]"
+                  src="/img/projetos/netflix.png"
+                  alt="siteVeterinaria"
+                />
+              </div>
+              <a
+                className="card-title cursor-wait"
+                href="https://netflix-six-chi.vercel.app/manageProfiles/index.html"
+                target="_blank"
+              >
+                <TitleH3 className="H3">
+                  Site da Netflix ainda em andamento.
+                </TitleH3>
               </a>
             </div>
           </div>
