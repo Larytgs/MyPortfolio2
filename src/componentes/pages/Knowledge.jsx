@@ -113,7 +113,7 @@ function Knowledge() {
               <H3>Tailwindcss</H3>
               <P>
                 É um framework CSS voltado para utilidade, repleto de classes
-                como <strong>flex, pt-4, text-center</strong> e rotate-90 que
+                como <strong>flex, pt-4, text-center e rotate-90</strong> que
                 podem ser compostas para criar qualquer design, diretamente na
                 sua marcação.
               </P>
