@@ -10,11 +10,12 @@ function Knowledge() {
         {/* todos os cards mais o "ver mais"*/}
         <div className="mt-5 justify-center items-center">
           {/* todos os cards */}
-          <div
+          {/* <div
             className="grid grid-cols-3 gap-4
             max-lg:col-span-2
             max-md:block"
-          >
+          > */}
+          <div className="flex flex-wrap">
             {/* cada card o h3 e o p */}
             <Card>
               <img
@@ -94,7 +95,7 @@ function Knowledge() {
             <Card>
               <img
                 className="w-16"
-                src="/img/logo/conhecimentos/"
+                src="/img/logo/conhecimentos/react-original.svg"
                 alt="Postman"
               />
               <H3>React</H3>
