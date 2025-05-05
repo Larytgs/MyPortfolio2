@@ -107,7 +107,7 @@ function Knowledge() {
             <Card>
               <img
                 className="w-16"
-                src="/public/img/logo/conhecimentos/tailwindcss-original.svg"
+                src="/img/logo/conhecimentos/tailwindcss-original.svg"
                 alt="VSCODE"
               />
               <H3>Tailwindcss</H3>
