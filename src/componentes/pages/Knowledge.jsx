@@ -91,7 +91,20 @@ function Knowledge() {
                 compartilhar APIs.
               </P>
             </Card>
-            <div className="bg-[#333] col-span-3 w-full rounded-2xl h-[100%] my-3 mx-auto align-middle p-4 text-left">
+            <Card>
+              <img
+                className="w-16"
+                src="/img/logo/conhecimentos/"
+                alt="Postman"
+              />
+              <H3>React</H3>
+              <P>
+                React é uma biblioteca JavaScript de código aberto utilizada
+                para construir interfaces de usuário (UI) para aplicações web.
+              </P>
+            </Card>
+            <Card>
+              {/* className="bg-[#333] col-span-3 w-full rounded-2xl h-[100%] my-3 mx-auto align-middle p-4 text-left" */}
               <img
                 className="w-16"
                 src="/img/logo/conhecimentos/vscode-original.svg"
@@ -102,7 +115,7 @@ function Knowledge() {
                 Visual Studio Code (VS Code) é um editor de código-fonte
                 gratuito e de código aberto desenvolvido pela Microsoft.
               </P>
-            </div>
+            </Card>
           </div>
           <a
             href="https://github.com/Larytgs"
