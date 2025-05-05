@@ -26,7 +26,8 @@ function Presentation() {
             Sou graduada em Análises e desenvolvimento de sistemas, estudo
             programação desde 2020,com ênfase em desenvolvimento web.
             <br />
-            Atualmente estou finalizando Pós-Graduação em Front-end.
+            Atualmente, concluí minha Pós-Graduação em Front-end, com foco em
+            estudos com React e API.
           </Text>
           <ul className="flex gap-4 justify-evenly text-left">
             <li>
