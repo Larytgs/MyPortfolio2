@@ -55,6 +55,7 @@ body {
   pointer-events: none; /* Evita interferência com cliques */
   transform: translate(-50%, -50%);
   transition: transform 0.5s linear;
+  z-index: 999;
 }
 
 /*Firstmain.jsx*/
