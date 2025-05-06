@@ -38,7 +38,7 @@ function Firstmain() {
                 Laryssa Tortato Gomes da Silva
                 <br />
                 <span className="text-[0.7em] font-thin text-[#797676] ">
-                  Desenvolvedora Web Front end
+                  Desenvolvedora Web Front-end
                 </span>
               </h1>
               <br />
@@ -47,7 +47,7 @@ function Firstmain() {
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl cursor-none
                    md:transition-transform md:duration-500 md:hover:scale-110"
-                  href="../../public/img/CurriculoLaryssa.pdf"
+                  href="/img/CurriculoLaryssa.pdf"
                   target="_blank"
                 >
                   Download CV
