@@ -30,10 +30,10 @@ function Projects() {
             <div>
               <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
+                  HTML5
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
+                  CSS3
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   JS
@@ -64,10 +64,10 @@ function Projects() {
             <div>
               <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
+                  HTML5
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
+                  CSS3
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   JS
@@ -98,10 +98,10 @@ function Projects() {
             <div>
               <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
+                  HTML5
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
+                  CSS3
                 </li>
               </ul>
             </div>
@@ -129,10 +129,10 @@ function Projects() {
             <div>
               <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
+                  HTML5
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
+                  CSS3
                 </li>
               </ul>
             </div>
@@ -160,10 +160,10 @@ function Projects() {
             <div>
               <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
+                  HTML5
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
+                  CSS3
                 </li>
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   JS
