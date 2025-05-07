@@ -27,6 +27,19 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  CSS3
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  HTML5
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  JS
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
@@ -47,6 +60,19 @@ function Projects() {
                   Site para uma Mecânica Automotiva.
                 </TitleH3>
               </a>
+            </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  CSS3
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  HTML5
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  JS
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -69,6 +95,16 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  CSS3
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  HTML5
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
@@ -89,6 +125,16 @@ function Projects() {
                   Site Biscoitos Decorados.
                 </TitleH32>
               </a>
+            </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  CSS3
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  HTML5
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -111,6 +157,19 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  CSS3
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  HTML5
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  JS
+                </li>
+              </ul>
+            </div>
           </div>
 
           <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
@@ -127,6 +186,16 @@ function Projects() {
                 href="#"
                 target="_blank"
               ></a>
+            </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  React
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  Tailwindcss
+                </li>
+              </ul>
             </div>
           </div>
         </Project>
