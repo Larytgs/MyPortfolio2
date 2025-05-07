@@ -124,11 +124,11 @@ function Firstmain() {
                 Habilidades
               </Button>
             </Lista>
-            <Lista>
+            {/* <Lista>
               <Button onClick={() => toggleSection("knowledge")}>
                 Conhecimentos
               </Button>
-            </Lista>
+            </Lista> */}
             <Lista>
               <Button onClick={() => toggleSection("projects")}>
                 Projetos
