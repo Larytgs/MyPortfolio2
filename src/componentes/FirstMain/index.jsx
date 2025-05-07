@@ -53,7 +53,7 @@ function Firstmain() {
               lg:items-center lg:flex"
               >
                 <a
-                  className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl cursor-none
+                  className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl
                    md:transition-transform md:duration-500 md:hover:scale-110"
                   href="/img/CurriculoLaryssa.pdf"
                   target="_blank"

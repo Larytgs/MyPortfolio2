@@ -41,27 +41,29 @@ body {
 }
 
 /*Remove o cursor padrão */
-body {
-  cursor: none;
-}
+/* body {
+  cursor: wait;
+} */
 /* Estilizando o cursor personalizado */
-.cursor {
+/* .cursor {
   width: 20px;
   height: 20px;
   border-radius: 50%;
   cursor: help;
   background-color: #00ffff80; /* Cor turquesa com transparência */
-  position: absolute;
+/*position: absolute;
   pointer-events: none; /* Evita interferência com cliques */
-  transform: translate(-50%, -50%);
+/*transform: translate(-50%, -50%);
   transition: transform 0.5s linear;
   z-index: 1;
-}
+} */
 
-/* Index - meu nome */
 @keyframes animate {
+  from {
+    background-position-x: 0;
+  }
   to {
-    background-position-x: -550px;
+    background-position-x: -550px; /* Ajuste conforme necessário */
   }
 }
 

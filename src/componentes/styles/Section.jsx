@@ -28,15 +28,15 @@ function Card2(props) {
   return (
     <motion.div
       whileHover={{ rotateY: 180 }}
-      transition={{ duration: 0.4, ease: "easeInOut" }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
       //transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
-      className={`m-2 py-4 px-7 bg-[#333333d3] rounded-2xl align-middle text-center 
+      className={`m-2 py-4 px-7 bg-[#3333336b] rounded-2xl align-middle text-center 
         ${props.className || ""}`}
       style={{
         transformStyle: "preserve-3d",
-        perspective: 1000,
+        perspective: 500,
       }}
     >
       {props.children}

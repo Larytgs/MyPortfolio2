@@ -58,7 +58,7 @@ function Knowledge() {
                 comportamentos da página.
               </P> */}
             </Card2>
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F34F29]">
+            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#29f355]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/git-original.svg"
@@ -139,7 +139,8 @@ function Knowledge() {
           <a
             href="https://github.com/Larytgs"
             target="_blank"
-            className="underline-offset-0 text-center block mt-12 text-lg"
+            className="underline-offset-0 text-center block text-lg
+            md:mt-10"
           >
             <span>Ver mais</span>
           </a>

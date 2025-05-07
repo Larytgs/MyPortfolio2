@@ -41,7 +41,7 @@ function Button(props) {
   return (
     <button
       onClick={props.onClick}
-      className="p-2 text-[1.3em] text-center cursor-none 
+      className="p-2 text-[1.3em] text-centerb cursor-grabbing
       sm:px-[35px] sm:text-[1.5em] sm:w-[100%] sm:py-[10px]
       md:text-3xl md:py-[10px] md:px-[20px] md:transition-transform md:duration-500 md:hover:scale-110
       "
