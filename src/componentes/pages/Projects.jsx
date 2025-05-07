@@ -107,7 +107,7 @@ function Projects() {
                 target="_blank"
               >
                 <TitleH3 className="H3">
-                  Site da Netflix, ainda em andamento.
+                  Réplica da Netflix, ainda em andamento.
                 </TitleH3>
               </a>
             </div>
