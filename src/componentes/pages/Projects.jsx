@@ -8,7 +8,7 @@ function Projects() {
         <Subtitulo>Projetos</Subtitulo>
 
         <Project className="mb-[-2%]">
-          <div className="flex-auto text-center m-3 cursor-wait">
+          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -29,7 +29,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center m-3 cursor-wait">
+          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -50,7 +50,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center m-3 cursor-wait">
+          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -71,7 +71,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center m-3 cursor-wait">
+          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
             <div className="service-proj relative group">
               <div className="card-proj">
                 <img
@@ -92,7 +92,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center m-3 cursor-wait">
+          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -113,7 +113,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center m-3 cursor-wait">
+          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img

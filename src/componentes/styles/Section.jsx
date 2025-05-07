@@ -14,7 +14,7 @@ function Text(props) {
   return <p className="text-lg text-left py-5 px-0">{props.children}</p>;
 }
 
-//skill-wrapper as divs da ul - Skills.jsx
+//skill-wrapper as divs da ul - Knowledge.jsx
 function SkillWrapper(props) {
   return (
     <div className="col-span-12 flex items-center justify-between mt-7 mb-3">
@@ -73,8 +73,8 @@ function Project(props) {
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
-      className={`inline-grid grid-cols-2 mb-[5%] mt-2.5
-      max-md:grid-cols-1 ${props.className}`}
+      className={`inline-grid grid-cols-1 mb-[5%] mt-2.5
+      md:grid-cols-2 ${props.className}`}
     >
       {props.children}
     </motion.div>
