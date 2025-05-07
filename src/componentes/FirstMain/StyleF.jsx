@@ -3,7 +3,7 @@
 function Ul(props) {
   return (
     <ul
-      className="text-center gap-1 grid grid-cols-3 items-center
+      className="text-center gap-1 grid grid-cols-1 items-center
       sm:grid-cols-3
       lg:flex lg:flex-1 lg:justify-center"
     >
