@@ -10,11 +10,6 @@ function Knowledge() {
         {/* todos os cards mais o "ver mais"*/}
         <div className="mt-5 justify-center items-center">
           {/* todos os cards */}
-          {/* <div
-            className="grid grid-cols-3 gap-4
-            max-lg:col-span-2
-            max-md:block"
-          > */}
           <div
             className="inline-grid grid-cols-2 mb-[5%] mt-2.5
             md:grid-cols-4
