@@ -1,6 +1,8 @@
 import Subtitulo from "../styles/Subtitulo";
 import Section, { Text, SkillWrapper, Card2 } from "../styles/Section";
 
+import { Typewriter } from "react-simple-typewriter";
+
 //Habilidades
 function Skills() {
   return (
