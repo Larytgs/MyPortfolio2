@@ -24,13 +24,20 @@ function SkillWrapper(props) {
 }
 
 //Cards as divs do conhecimentos - Knowledge.jsx
-function Card(props) {
+function Card2(props) {
   return (
     <motion.div
+      whileHover={{ rotateY: 180 }}
+      transition={{ duration: 0.6, ease: "easeInOut" }}
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
-      transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
-      className="ml-3 bg-[#333] rounded-2xl my-3 align-middle p-4 text-left grow basis-[350px]"
+      //transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
+      className={`m-2 py-4 px-7 bg-[#333333d3] rounded-2xl align-middle text-center 
+        ${props.className || ""}`}
+      style={{
+        transformStyle: "preserve-3d",
+        perspective: 1000,
+      }}
     >
       {props.children}
     </motion.div>
@@ -40,8 +47,9 @@ function Card(props) {
 function H3(props) {
   return (
     <h3
-      className="text-2xl font-bold mt-6 mb-2 ml-0 mr-0 max-md:text-lg
-      max-sm:text-[1.1em]"
+      className="text-sm font-bold mt-4 mx-0 
+      sm:text-[1.1em]
+      md:text-[1.2em]"
     >
       {props.children}
     </h3>
@@ -93,4 +101,4 @@ function TitleH32(props) {
 }
 
 export default Section;
-export { Text, SkillWrapper, Card, H3, P, TitleH3, TitleH32, Project };
+export { Text, SkillWrapper, Card2, H3, P, TitleH3, TitleH32, Project };
