@@ -38,7 +38,7 @@ function Firstmain() {
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.7em] font-thin text-[#797676] md:whitespace-nowrap">
+                <span className="text-[0.7em] font-thin text-[#797676]">
                   <Typewriter
                     words={["Desenvolvedora Web Front-end"]}
                     loop={true} // 🔁 Se true, digita/apaga infinitamente; false digita uma vez só
