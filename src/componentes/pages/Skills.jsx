@@ -1,8 +1,6 @@
 import Subtitulo from "../styles/Subtitulo";
 import Section, { Text, SkillWrapper, Card2 } from "../styles/Section";
 
-//import { Typewriter } from "react-simple-typewriter";
-
 //Habilidades
 function Skills() {
   return (
@@ -80,11 +78,6 @@ function Skills() {
         {/* todos os cards mais o "ver mais"*/}
         <div className="mt-5 justify-center items-center">
           {/* todos os cards */}
-          {/* <div
-            className="grid grid-cols-3 gap-4
-            max-lg:col-span-2
-            max-md:block"
-          > */}
           <div
             className="inline-grid grid-cols-3 mb-[5%] mt-2.5
             sm:grid-cols-4
