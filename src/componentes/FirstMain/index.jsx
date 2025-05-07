@@ -4,6 +4,7 @@ import { Presentation, Skills, Knowledge, Projects } from "../pages/index.jsx";
 import Button, { Lista, Ul } from "./StyleF.jsx";
 import "../../index.css";
 //import StarryBackground from "../Star/StarryBackground.jsx";
+import { Typewriter } from "react-simple-typewriter";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
@@ -37,13 +38,24 @@ function Firstmain() {
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.7em] font-thin text-[#797676] ">
-                  Desenvolvedora Web Front-end
+                <span className="text-[0.7em] font-thin text-[#797676] whitespace-nowrap">
+                  <Typewriter
+                    words={["Desenvolvedora Web Front-end"]}
+                    loop={true} // 🔁 Se true, digita/apaga infinitamente; false digita uma vez só
+                    cursor // ✏️ Mostra o cursor piscando (|) no final do texto
+                    cursorStyle="█" // 💅 Estilo do cursor (você pode mudar para _ ou █ se quiser)
+                    typeSpeed={80} // ⏩ Velocidade de digitação (ms por caractere) – menor = mais rápido
+                    deleteSpeed={50} // ⏪ Velocidade de apagar (ms por caractere)
+                    delaySpeed={1500} // ⏸ Tempo de espera (ms) antes de começar a apagar o texto
+                  />
                 </span>
               </h1>
               <br />
               {/* Down e "Transformando sonhos" */}
-              <div className="block gap-4 text-center lg:items-center lg:flex">
+              <div
+                className="block gap-4 text-center pl-5 
+              lg:items-center lg:flex"
+              >
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl cursor-none
                    md:transition-transform md:duration-500 md:hover:scale-110"
@@ -59,7 +71,7 @@ function Firstmain() {
                 </a>
                 <p
                   className="w-[100%] mt-4 m-auto font-serif text-lg 
-                md:w-[450px] lg:mt-0"
+                md:w-[400px] lg:mt-0"
                 >
                   ”Transformando sonhos em conquistas; linhas de código em
                   experiências memoráveis.”
