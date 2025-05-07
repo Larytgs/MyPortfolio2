@@ -14,7 +14,7 @@ function Skills() {
         <div className="text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
           <Text>
-            Como Desenvolvedor Web Front-end, acredito na importância do
+            Como Desenvolvedora Web Front-end, acredito na importância do
             aprendizado contínuo e estou constantemente aprimorando minhas
             habilidades.
             <br />

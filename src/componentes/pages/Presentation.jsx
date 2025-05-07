@@ -21,10 +21,11 @@ function Presentation() {
             Um pequeno palco em meio à imensidão cósmica.
           </Subtitulo>
           <Text>
-            Olá, me chamo Laryssa (ou Lary😜), tenho 26 anos e sou de Itapoá-SC.
+            Olá, me chamo Laryssa (ou Lary😜), tenho 26 anos e sou de Curitiba,
+            morando Itapoá-SC.
             <br />
             Sou graduada em Análises e desenvolvimento de sistemas, estudo
-            programação desde 2020,com ênfase em desenvolvimento web.
+            programação desde 2020, com ênfase em desenvolvimento web.
             <br />
             Atualmente, concluí minha Pós-Graduação em Front-end, com foco em
             estudos com React e API.

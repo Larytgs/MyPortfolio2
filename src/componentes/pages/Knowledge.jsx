@@ -1,6 +1,6 @@
 // Foi tirado, mas futuramente posso colocar de novo
 
-import Section, { Card2, H3, P } from "../styles/Section";
+import Section, { Card2, H3 } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 
 //Conhecimentos
@@ -137,10 +137,10 @@ function Knowledge() {
           </div>
 
           <a
-            href="https://github.com/Larytgs"
-            target="_blank"
             className="underline-offset-0 text-center block text-lg
             md:mt-10"
+            href="https://github.com/Larytgs"
+            target="_blank"
           >
             <span>Ver mais</span>
           </a>

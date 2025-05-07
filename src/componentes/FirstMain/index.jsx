@@ -117,7 +117,7 @@ function Firstmain() {
             </Lista>
             <Lista>
               <Button onClick={() => toggleSection("skills")}>
-                Habilidades
+                Aprendizado
               </Button>
             </Lista>
             {/* <Lista>
