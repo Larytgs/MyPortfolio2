@@ -32,13 +32,13 @@ function Firstmain() {
           <article className="m-auto text-center">
             <article>
               <h1
-                className="text-[2em] text-center mt-[10%] mb-5 mx-3 font-serif tracking-tight leading-none 
+                className="text-[1.9em] text-center mt-[10%] mb-5 mx-3 font-serif tracking-tight leading-none 
                 md:text-[2.8em] 
                 lg:text-left"
               >
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.7em] font-thin text-[#797676]">
+                <span className="text-[0.6em] font-thin text-[#797676]">
                   <Typewriter
                     words={["Desenvolvedora Web Front-end"]}
                     loop={true} // 🔁 Se true, digita/apaga infinitamente; false digita uma vez só
