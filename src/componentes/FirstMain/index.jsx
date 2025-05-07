@@ -1,7 +1,7 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Presentation, Skills, Projects } from "../pages/index.jsx";
-import Button, { Lista, Ul } from "./StyleF.jsx";
+import Button, { H1, Lista, Ul } from "./StyleF.jsx";
 import "../../index.css";
 //import StarryBackground from "../Star/StarryBackground.jsx";
 import { Typewriter } from "react-simple-typewriter";
@@ -31,14 +31,10 @@ function Firstmain() {
         >
           <article className="m-auto text-center">
             <article>
-              <h1
-                className="text-[1.9em] text-center mt-[10%] mb-5 mx-3 font-serif tracking-tight leading-none 
-                md:text-[2.8em] 
-                lg:text-left"
-              >
+              <H1>
                 Laryssa Tortato Gomes da Silva
                 <br />
-                <span className="text-[0.6em] font-thin text-[#797676]">
+                <span className="text-[0.6em] font-thin text-[#797676] bg-none">
                   <Typewriter
                     words={["Desenvolvedora Web Front-end"]}
                     loop={true} // 🔁 Se true, digita/apaga infinitamente; false digita uma vez só
@@ -49,7 +45,7 @@ function Firstmain() {
                     delaySpeed={1500} // ⏸ Tempo de espera (ms) antes de começar a apagar o texto
                   />
                 </span>
-              </h1>
+              </H1>
               <br />
               {/* Down e "Transformando sonhos" */}
               <div

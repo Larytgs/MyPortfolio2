@@ -58,6 +58,13 @@ body {
   z-index: 1;
 }
 
+/* Index - meu nome */
+@keyframes animate {
+  to {
+    background-position-x: -550px;
+  }
+}
+
 /*Firstmain.jsx*/
 .minhaft {
   border-radius: 20% 10px;

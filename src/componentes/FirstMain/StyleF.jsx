@@ -1,5 +1,19 @@
 //import { ul } from "framer-motion/client";
 
+function H1(props) {
+  return (
+    <h1
+      className="text-[1.9em] text-center mt-[10%] mb-5 mx-3 font-serif tracking-tight leading-none 
+      bg-[url('/img/fundo-de-gradiente-azul-07xqmk2r9n9vmxli.jpg')] bg-cover bg-clip-text text-transparent 
+      md:text-[2.8em] 
+      lg:text-left"
+      style={{ animation: "animate 5s linear infinite" }}
+    >
+      {props.children}
+    </h1>
+  );
+}
+
 function Ul(props) {
   return (
     <ul
@@ -38,4 +52,4 @@ function Button(props) {
 }
 
 export default Button;
-export { Lista, Ul };
+export { H1, Lista, Ul };
