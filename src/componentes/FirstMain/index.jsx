@@ -43,7 +43,7 @@ function Firstmain() {
                     words={["Desenvolvedora Web Front-end"]}
                     loop={true} // 🔁 Se true, digita/apaga infinitamente; false digita uma vez só
                     cursor // ✏️ Mostra o cursor piscando (|) no final do texto
-                    cursorStyle="█" // 💅 Estilo do cursor (você pode mudar para _ ou █ se quiser)
+                    cursorStyle="|" // 💅 Estilo do cursor (você pode mudar para _ ou █ se quiser)
                     typeSpeed={80} // ⏩ Velocidade de digitação (ms por caractere) – menor = mais rápido
                     deleteSpeed={50} // ⏪ Velocidade de apagar (ms por caractere)
                     delaySpeed={1500} // ⏸ Tempo de espera (ms) antes de começar a apagar o texto
