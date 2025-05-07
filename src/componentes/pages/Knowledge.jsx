@@ -1,3 +1,5 @@
+// Foi tirado, mas futuramente posso colocar de novo
+
 import Section, { Card2, H3, P } from "../styles/Section";
 import Subtitulo from "../styles/Subtitulo";
 

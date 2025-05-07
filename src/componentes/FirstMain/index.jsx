@@ -1,6 +1,6 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
-import { Presentation, Skills, Knowledge, Projects } from "../pages/index.jsx";
+import { Presentation, Skills, Projects } from "../pages/index.jsx";
 import Button, { Lista, Ul } from "./StyleF.jsx";
 import "../../index.css";
 //import StarryBackground from "../Star/StarryBackground.jsx";
@@ -141,7 +141,7 @@ function Firstmain() {
         <div className="col-span-12 mt-4 sm:mt-10">
           {visibleSection === "presentation" && <Presentation />}
           {visibleSection === "skills" && <Skills />}
-          {visibleSection === "knowledge" && <Knowledge />}
+          {/* {visibleSection === "knowledge" && <Knowledge />} */}
           {visibleSection === "projects" && <Projects />}
         </div>
       </section>
