@@ -9,16 +9,16 @@ function Header() {
       </Link>
       <div className="flex gap-4 cursor-pointer">
         <a href="https://github.com/Larytgs" target="blank">
-          <img src="/img/logo/github.png" />
+          <img className="img" src="/img/logo/github.png" />
         </a>
         <a
           href="https://www.linkedin.com/in/laryssa-tortato-7612961a9/"
           target="blank"
         >
-          <img src="/img/logo/linkedin.png" />
+          <img className="img" src="/img/logo/linkedin.png" />
         </a>
         <a href="https://www.instagram.com/larytgs/" target="blank">
-          <img className="mr-4" src="/img/logo/instagram.png" />
+          <img className="mr-5 img" src="/img/logo/instagram.png" />
         </a>
       </div>
     </div>
