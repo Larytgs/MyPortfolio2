@@ -28,7 +28,7 @@ function Card2(props) {
   return (
     <motion.div
       whileHover={{ rotateY: 180 }}
-      transition={{ duration: 0.8, ease: "easeInOut" }}
+      transition={{ duration: 0.4 }}
       //transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
