@@ -177,7 +177,7 @@ function Projects() {
               <div className="card-proj">
                 <img
                   className="rounded-2xl w-[500px]"
-                  src="/public/img/projetos/EstiloPinterest.png"
+                  src="/img/projetos/EstiloPinterest.png"
                   alt="siteVeterinaria"
                 />
               </div>
