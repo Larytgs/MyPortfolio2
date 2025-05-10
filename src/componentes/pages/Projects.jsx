@@ -118,7 +118,7 @@ function Projects() {
               </div>
               <a
                 className="card-title cursor-wait"
-                href="https://larytgs.github.io/site-biscoitos-decorados/"
+                href="https://site-biscoitos-decorados.vercel.app/"
                 target="_blank"
               >
                 <TitleH32 className="biscoitos">
