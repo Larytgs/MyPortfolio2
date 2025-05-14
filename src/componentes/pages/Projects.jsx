@@ -134,6 +134,9 @@ function Projects() {
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   CSS3
                 </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  JS
+                </li>
               </ul>
             </div>
           </div>
