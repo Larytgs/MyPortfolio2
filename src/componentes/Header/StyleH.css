@@ -19,3 +19,11 @@
   box-shadow: 1px 2px #6ad0ff;
   border-radius: 0% 0% 40% 10%;
 }
+
+body.dark {
+  background-color: white;
+  color: black;
+}
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
