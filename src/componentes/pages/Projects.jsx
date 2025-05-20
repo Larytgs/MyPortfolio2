@@ -28,7 +28,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   HTML5
                 </li>
@@ -62,7 +62,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   HTML5
                 </li>
@@ -96,7 +96,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   HTML5
                 </li>
@@ -127,7 +127,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   HTML5
                 </li>
@@ -161,7 +161,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   HTML5
                 </li>
@@ -195,7 +195,7 @@ function Projects() {
               </a>
             </div>
             <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   React
                 </li>
@@ -217,7 +217,7 @@ function Projects() {
               </div>
               <a className="card-title cursor-wait" href="#" target="_blank">
                 {/* <div>
-              <ul className="flex mt-2 mx-5 gap-2 bg-[#00000044] text-[#797676]">
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
                   React
                 </li>

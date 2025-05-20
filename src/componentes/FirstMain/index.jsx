@@ -54,7 +54,7 @@ function Firstmain() {
               >
                 <a
                   className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl
-                   md:transition-transform md:duration-500 md:hover:scale-110"
+                   md:transition-transform md:duration-500 md:hover:scale-110 dark:text-white"
                   href="/img/CurriculoLaryssa.pdf"
                   target="_blank"
                 >
@@ -108,7 +108,10 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div className="col-span-12 mt-14 inline-block flex-wrap w-full items-center">
+        <div
+          className="col-span-12 mt-14 inline-block flex-wrap w-full items-center
+        "
+        >
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
