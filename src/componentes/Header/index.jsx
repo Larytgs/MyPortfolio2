@@ -30,11 +30,11 @@ function Header() {
           />
 
           {/* Trilha do toggle (fundo) */}
-          <div className="w-11 h-6 bg-gray-300 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-[#6ad0ff] rounded-full peer dark:bg-gray-600 peer-checked:bg-[#6ad0ff] transition-colors"></div>
+          <div className="w-10 h-5 bg-gray-300 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-[#6ad0ff] rounded-full peer dark:bg-gray-600 peer-checked:bg-[#6ad0ff] transition-colors"></div>
 
           {/* Círculo que desliza (a “bolinha”) */}
           <div
-            className={`absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform ${
+            className={`absolute left-1 top-1 w-3 h-3 bg-white rounded-full transition-transform ${
               darkMode ? "translate-x-5" : ""
             }`}
           ></div>
