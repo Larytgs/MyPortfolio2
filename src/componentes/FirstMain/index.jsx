@@ -108,10 +108,7 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div
-          className="col-span-12 mt-14 inline-block flex-wrap w-full items-center
-        "
-        >
+        <div className="col-span-12 mt-14 inline-block flex-wrap w-full items-center">
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
