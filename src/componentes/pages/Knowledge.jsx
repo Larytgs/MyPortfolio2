@@ -135,15 +135,6 @@ function Knowledge() {
               </P> */}
             </Card2>
           </div>
-
-          <a
-            className="underline-offset-0 text-center block text-lg
-            md:mt-10"
-            href="https://github.com/Larytgs"
-            target="_blank"
-          >
-            <span>Ver mais</span>
-          </a>
         </div>
       </section>
     </Section>

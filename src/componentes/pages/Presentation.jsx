@@ -30,7 +30,17 @@ function Presentation() {
             Atualmente, concluí minha Pós-Graduação em Front-end, com foco em
             estudos com React e API.
           </Text>
-          <ul className="flex gap-4 justify-evenly text-left">
+
+          <p
+            className="underline underline-offset-4 text-left
+              sm:text-2xl"
+          >
+            Email
+          </p>
+          <span className="sm:text-lg block text-left">
+            siteslarytgs@gmail.com
+          </span>
+          {/* <ul className="flex gap-4 justify-evenly text-left">
             <li>
               <p
                 className="underline underline-offset-4
@@ -49,7 +59,7 @@ function Presentation() {
               </p>
               <span className="sm:text-lg">siteslarytgs@gmail.com</span>
             </li>
-          </ul>
+          </ul> */}
         </div>
       </section>
     </Section>
