@@ -230,6 +230,14 @@ function Projects() {
             </div>
           </div>
         </Project>
+
+        <a
+          href="https://github.com/Larytgs"
+          target="_blank"
+          className="underline-offset-0 text-center block text-lg"
+        >
+          <span>Ver mais no Github</span>
+        </a>
       </section>
     </Section>
   );

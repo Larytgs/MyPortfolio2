@@ -195,14 +195,6 @@ function Skills() {
               </P> */}
             </Card2>
           </div>
-
-          <a
-            href="https://github.com/Larytgs"
-            target="_blank"
-            className="underline-offset-0 text-center block mt-12 text-lg"
-          >
-            <span>Ver mais</span>
-          </a>
         </div>
       </section>
     </Section>
