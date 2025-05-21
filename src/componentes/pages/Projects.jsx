@@ -8,7 +8,7 @@ function Projects() {
         <Subtitulo>Projetos</Subtitulo>
 
         <Project className="mb-[-2%]">
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -18,7 +18,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title cursor-wait"
+                className="card-title"
                 href="http://agencia_de_sites.larytgs.com.br/"
                 target="_blank"
               >
@@ -42,7 +42,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -52,7 +52,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title cursor-wait"
+                className="card-title"
                 href="http://vitticarservice.com.br"
                 target="_blank"
               >
@@ -76,7 +76,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -86,7 +86,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title cursor-wait"
+                className="card-title"
                 href="https://larytgs.github.io/Projeto-Veterinaria-Sao-Lourenco/"
                 target="_blank"
               >
@@ -107,7 +107,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative group">
               <div className="card-proj">
                 <img
@@ -117,7 +117,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title cursor-wait"
+                className="card-title"
                 href="https://site-biscoitos-decorados.vercel.app/"
                 target="_blank"
               >
@@ -141,7 +141,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -151,7 +151,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title cursor-wait"
+                className="card-title"
                 href="https://netflix-six-chi.vercel.app/manageProfiles/index.html"
                 target="_blank"
               >
@@ -175,7 +175,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -185,7 +185,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title cursor-wait"
+                className="card-title"
                 href="https://fotografia-tgs.vercel.app/"
                 target="_blank"
               >
@@ -206,7 +206,7 @@ function Projects() {
             </div>
           </div>
 
-          <div className="flex-auto text-center my-3 cursor-wait sm:mx-3">
+          <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -215,7 +215,7 @@ function Projects() {
                   alt="siteVeterinaria"
                 />
               </div>
-              <a className="card-title cursor-wait" href="#" target="_blank">
+              <a className="card-title" href="#" target="_blank">
                 {/* <div>
               <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
