@@ -37,7 +37,9 @@ function Skills() {
             </li>
             <li>
               <SkillWrapper>
-                <span className="font-bold">Desenvolvimento de Websites</span>
+                <span className="font-bold">
+                  Desenvolvimento Web Responsivo
+                </span>
                 <span>90%</span>
               </SkillWrapper>
               <div className="h-1 bg-[#0f0f0f]">
