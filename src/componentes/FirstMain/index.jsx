@@ -8,6 +8,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
+import Formulario from "../pages/formulario.jsx";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
@@ -142,6 +143,7 @@ function Firstmain() {
         </div>
       </section>
 
+      <Formulario />
       <Footer />
     </>
   );
