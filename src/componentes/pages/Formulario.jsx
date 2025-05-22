@@ -29,6 +29,10 @@ const Formulario = () => {
     // Manipular os dados recebidos, por exemplo, enviar os dados para API
     // Concatenar e imprimir utilizando Template strings
     console.log(`Nome: ${data.name}`);
+    console.log(`E-mail: ${data.email}`);
+    console.log(`Telefone: ${data.telefone}`);
+    console.log(`Assunto: ${data.assunto}`);
+    console.log(`Conteudo: ${data.msg}`);
   };
 
   return (
