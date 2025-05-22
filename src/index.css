@@ -104,6 +104,14 @@ body {
   opacity: 0.1; /*para sumir a imagem, enquanto mostra o texto*/
 }
 
+/* Estiliza os campos quando o navegador faz autofill - formulario*/
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #020617 inset !important; /* mesma cor do bg-slate-950 */
+  -webkit-text-fill-color: white !important; /* cor do texto */
+  transition: background-color 9999s ease-out 0s;
+}
+
 @media all and (max-width: 1115px) {
   .cursor {
     display: none;
