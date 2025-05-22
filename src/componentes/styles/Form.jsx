@@ -1,7 +1,7 @@
 function Form(props) {
   return (
     <form
-      onSubmit={props.onSubmit} // necessário para funcionar corretamente
+      onSubmit={props.onSubmit} // necessário para funcionar corretamente o envio do formulario, pois ele foi customizado
       className="m-5 text-left grid grid-cols-1 md:grid-cols-2 gap-3 max-w-[1000px] mx-auto"
     >
       {props.children}
