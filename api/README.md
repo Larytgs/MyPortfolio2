@@ -1,3 +1,7 @@
+Abrir o endereço no navegador para acessar a página inicial:
+
+### http://localhost:8080
+
 Rodar o projeto:
 
 ### node app.js
@@ -39,3 +43,11 @@ Iniciar o Sequelize-cli e criar o arquivo config:
 Manipular variaveia de ambiente, para poder renomear algumas partes:
 
 ### npm i dotenv --save
+
+Criar a Models mensagem:
+
+### npx sequelize-cli model:generate --name Messages --attributes name:string,email:string,subject:string,content:string
+
+Executar a migrations:
+
+### npx sequelize-cli db:migrate
