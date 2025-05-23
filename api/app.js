@@ -5,6 +5,9 @@ const express = require("express");
 // Chamar a funcao express
 const app = express();
 
+// Testar conexão com banco de dados
+const db = require("./db/models");
+
 // Incluir os Controllers
 const mensagens = require("./controllers/mensagens");
 
