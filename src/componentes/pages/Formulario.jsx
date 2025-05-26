@@ -50,16 +50,18 @@ const Formulario = () => {
 
     // Fazer a requisição para o servidor utilizando axios, indicando o método da requisição, o endereço, enviar os dados do formulário e o cabeçalho
     await axios
-      .post("http://localhost:8080/message", data, headers)
+      .post("http://192.168.0.100:8080/message", data, headers)
       .then((response) => {
         // acessa o then qnd a API retornar status 200
         // Atribuir a msg no state mensage
         setMessage(response.data.message);
       })
       .catch((err) => {
-        // acessa o catch qnd o API retornar erro
-        // Atribuir a msg no state mensage
-        setMessage(err.response.data.message);
+        if (err.response) {
+          setMessage(err.response.data.message);
+        } else {
+          setMessage("Erro de conexão com o servidor");
+        }
       });
   };
 
