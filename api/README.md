@@ -51,3 +51,11 @@ Criar a Models mensagem:
 Executar a migrations:
 
 ### npx sequelize-cli db:migrate
+
+Axios é uma biblioteca de client HTTP que permite fazer requisição a API:
+
+### npm install axios
+
+Permitir a requesição externa, para nao dar uns erros:
+
+### npm i cors

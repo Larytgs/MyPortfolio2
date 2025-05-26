@@ -1,7 +1,10 @@
-import Section from "../styles/Section";
+import Section, { P } from "../styles/Section";
 import H2 from "../styles/Subtitulo";
 import Form, { Input } from "../styles/Form";
 import { useState } from "react";
+
+//Biblioteca AXIOS para coectar ao API
+import axios from "axios";
 
 const Formulario = () => {
   // Declarar uma nova variavel de dados com state e atribuir objetos
@@ -14,6 +17,9 @@ const Formulario = () => {
     msg: "",
   });
 
+  // Declarar a variavel para receber a mensagem
+  const [message, setMessage] = useState("");
+
   //Receber todos os valores dos campos do formulario
   const valorInput = (e) =>
     setData({ ...data, [e.target.name]: e.target.value });
@@ -23,7 +29,7 @@ const Formulario = () => {
   // e.target.value → pega o valor digitado.
   // [e.target.name]: e.target.value → define dinamicamente a propriedade do objeto data com base no nome do campo
 
-  const sendMsg = (e) => {
+  const sendMsg = async (e) => {
     e.preventDefault(); //para bloquear o recarregamento da pagina
 
     // Manipular os dados recebidos, por exemplo, enviar os dados para API
@@ -33,11 +39,37 @@ const Formulario = () => {
     console.log(`Telefone: ${data.telefone}`);
     console.log(`Assunto: ${data.assunto}`);
     console.log(`Conteudo: ${data.msg}`);
+
+    // Criar a constante com os dados do cabeçalho
+    const headers = {
+      headers: {
+        // Indicar que sera enviado os dados em formato de objeto
+        "Content-Type": "application/json",
+      },
+    };
+
+    // Fazer a requisição para o servidor utilizando axios, indicando o método da requisição, o endereço, enviar os dados do formulário e o cabeçalho
+    await axios
+      .post("http://localhost:8080/message", data, headers)
+      .then((response) => {
+        // acessa o then qnd a API retornar status 200
+        // Atribuir a msg no state mensage
+        setMessage(response.data.message);
+      })
+      .catch((err) => {
+        // acessa o catch qnd o API retornar erro
+        // Atribuir a msg no state mensage
+        setMessage(err.response.data.message);
+      });
   };
 
   return (
     <Section>
       <H2>Entre em contato</H2>
+
+      {/* Imprimir a mensagem retornada da API */}
+      {message ? <p>{message}</p> : ""}
+
       {/* Início do formulário, executar o onSubmit quando usuário clicar no botão submit e chamar a funcao sendMsg */}
       <Form onSubmit={sendMsg}>
         {/* Inputs (coluna esquerda) */}
