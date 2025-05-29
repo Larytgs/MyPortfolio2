@@ -73,7 +73,7 @@ function Project(props) {
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
-      className={`inline-grid grid-cols-1 mb-[5%] mt-2.5
+      className={`inline-grid grid-cols-1 mb-[5%] mt-2.5 cursor-auto
       md:grid-cols-2 ${props.className}`}
     >
       {props.children}
