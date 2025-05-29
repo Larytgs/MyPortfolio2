@@ -140,7 +140,7 @@ function Skills() {
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#006BFF]">
               <img
                 className="w-12 inline"
-                src="/img/logo/conhecimentos/vite-original.svg"
+                src="/img/logo/conhecimentos/vitejs-original.svg"
                 alt="Vite"
               />
             </Card2>
