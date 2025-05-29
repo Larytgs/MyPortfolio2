@@ -75,7 +75,7 @@ function Knowledge() {
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F0DB4F]">
               <img
                 className="w-12 inline"
-                src="/img/logo/conhecimentos/vite"
+                src="/img/logo/conhecimentos/vite-original.svg"
                 alt="Vite"
               />
               <H3>Vite</H3>
@@ -84,7 +84,7 @@ function Knowledge() {
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F0DB4F]">
               <img
                 className="w-12 inline"
-                src="/img/logo/conhecimentos/"
+                src="/img/logo/conhecimentos/php-original.svg"
                 alt="PHP"
               />
               <H3>PHP</H3>
@@ -93,7 +93,7 @@ function Knowledge() {
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F0DB4F]">
               <img
                 className="w-12 inline"
-                src="/img/logo/conhecimentos/"
+                src="/img/logo/conhecimentos/mysql-original.svg"
                 alt="MySQL"
               />
               <H3>MySQL</H3>
