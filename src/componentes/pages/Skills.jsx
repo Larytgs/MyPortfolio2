@@ -85,8 +85,7 @@ function Skills() {
           <div
             className="inline-grid grid-cols-3 mb-[5%] mt-2.5
             sm:grid-cols-4
-            md:grid-cols-5
-            lg:grid-cols-9"
+            lg:grid-cols-6"
           >
             {/* cada card o h3 e o p */}
             {/* HTML */}
