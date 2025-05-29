@@ -70,7 +70,7 @@ function Skills() {
       <section className="col-span-12 text-center mt-24 m-auto">
         <div className="mb-2 text-2xl text-[#6ad0ff] font-bold sm:text-3xl">
           <Typewriter
-            words={["Conhecimentos"]}
+            words={["Conhecimentos e ferramentas"]}
             loop={true} // 🔁 Se true, digita/apaga infinitamente; false digita uma vez só
             cursor // ✏️ Mostra o cursor piscando (|) no final do texto
             cursorStyle="|" // 💅 Estilo do cursor (você pode mudar para _ ou █ se quiser)
