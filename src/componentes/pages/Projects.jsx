@@ -18,7 +18,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title"
+                className="card-title cursor-pointer"
                 href="http://agencia_de_sites.larytgs.com.br/"
                 target="_blank"
               >
@@ -52,7 +52,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title"
+                className="card-title cursor-pointer"
                 href="http://vitticarservice.com.br"
                 target="_blank"
               >
@@ -86,7 +86,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title"
+                className="card-title cursor-pointer"
                 href="https://larytgs.github.io/Projeto-Veterinaria-Sao-Lourenco/"
                 target="_blank"
               >
@@ -117,7 +117,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title"
+                className="card-title cursor-pointer"
                 href="https://site-biscoitos-decorados.vercel.app/"
                 target="_blank"
               >
@@ -151,7 +151,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title"
+                className="card-title cursor-pointer"
                 href="https://netflix-six-chi.vercel.app/manageProfiles/index.html"
                 target="_blank"
               >
@@ -185,7 +185,7 @@ function Projects() {
                 />
               </div>
               <a
-                className="card-title"
+                className="card-title cursor-pointer"
                 href="https://fotografia-tgs.vercel.app/"
                 target="_blank"
               >
@@ -215,7 +215,7 @@ function Projects() {
                   alt="siteVeterinaria"
                 />
               </div>
-              <a className="card-title" href="#" target="_blank">
+              <a className="card-title cursor-pointer" href="#" target="_blank">
                 {/* <div>
               <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
                 <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
