@@ -89,6 +89,7 @@ function Skills() {
             lg:grid-cols-9"
           >
             {/* cada card o h3 e o p */}
+            {/* HTML */}
             <Card2
               className="relative border border-transparent hover:border hover:border-solid hover:border-[#E44D26]
             "
@@ -103,6 +104,7 @@ function Skills() {
                 marcar os elementos da página e construí-la.
               </P> */}
             </Card2>
+            {/* CSS */}
             <Card2 className="relative text-center border border-transparent hover:border hover:border-solid hover:border-[#238CC8]">
               <img
                 className="w-12 inline"
@@ -114,6 +116,7 @@ function Skills() {
                 apresentação dos elementos da página os estilizando.{" "}
               </P> */}
             </Card2>
+            {/* JS */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F0DB4F]">
               <img
                 className="w-12 inline"
@@ -126,6 +129,39 @@ function Skills() {
                 comportamentos da página.
               </P> */}
             </Card2>
+            {/* React */}
+            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#61DAFB]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/react-original.svg"
+                alt="Postman"
+              />
+            </Card2>
+            {/* Vite */}
+            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#006BFF]">
+              <img
+                className="w-12 inline"
+                src="/public/img/logo/conhecimentos/vite-original.svg"
+                alt="Vite"
+              />
+            </Card2>
+            {/* PHP */}
+            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#777BB3]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/php-original.svg"
+                alt="PHP"
+              />
+            </Card2>
+            {/* MySQL */}
+            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#00618A]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/mysql-original.svg"
+                alt="MySQL"
+              />
+            </Card2>
+            {/* GIT */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F34F29]">
               <img
                 className="w-12 inline"
@@ -137,6 +173,7 @@ function Skills() {
                 utilizado no desenvolvimento de software.
               </P> */}
             </Card2>
+            {/* Github */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#696969]">
               <img
                 className="w-12 inline"
@@ -149,6 +186,7 @@ function Skills() {
                 ferramenta muito utilizada por desenvolvedores.
               </P> */}
             </Card2>
+            {/* Postman */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F37036]">
               <img
                 className="w-12 inline"
@@ -161,22 +199,12 @@ function Skills() {
                 compartilhar APIs.
               </P> */}
             </Card2>
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#61DAFB]">
-              <img
-                className="w-12 inline"
-                src="/img/logo/conhecimentos/react-original.svg"
-                alt="Postman"
-              />
-              {/* <P>
-                React é uma biblioteca JavaScript de código aberto utilizada
-                para construir interfaces de usuário (UI) para aplicações web.
-              </P> */}
-            </Card2>
+            {/* tailwindcss */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#38BDF8]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/tailwindcss-original.svg"
-                alt="VSCODE"
+                alt="tailwindcss"
               />
               {/* <P>
                 É um framework CSS voltado para utilidade, repleto de classes
@@ -185,6 +213,7 @@ function Skills() {
                 sua marcação.
               </P> */}
             </Card2>
+            {/* VSCODE */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#25AEF3]">
               <img
                 className="w-12 inline"

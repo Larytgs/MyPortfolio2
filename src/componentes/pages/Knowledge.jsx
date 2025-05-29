@@ -75,7 +75,7 @@ function Knowledge() {
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F0DB4F]">
               <img
                 className="w-12 inline"
-                src="/img/logo/conhecimentos/vite-original.svg"
+                src="/public/img/logo/conhecimentos/vite-original.svg"
                 alt="Vite"
               />
               <H3>Vite</H3>
