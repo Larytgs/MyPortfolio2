@@ -14,7 +14,12 @@
 }
 .h1Header {
   font-family: "cabeçalho";
+  background: linear-gradient(to top, #6ad0ff, #083d73, #6ad0ff, #083d73);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
+
 .img:hover {
   box-shadow: 1px 2px #6ad0ff;
   border-radius: 0% 0% 40% 10%;
