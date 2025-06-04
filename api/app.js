@@ -33,6 +33,7 @@ const mensagens = require("./controllers/mensagens");
 
 // Criar o middleware para receber os dados no corpo da requisicao
 // Middlewar é uma instrução que vai ser executada antes de acessara rota
+
 app.use(express.json());
 
 // Middleware: permitir requisições externas com CORS (coloque isso sozinho)
