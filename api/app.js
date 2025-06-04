@@ -16,6 +16,7 @@ const mensagens = require("./controllers/mensagens");
 const allowedOrigins = [
   "https://meusite.com", // produção
   "http://localhost:5173", // desenvolvimento local
+  "https://api.meusiteL.com", // só + um teste
 ];
 
 app.use(
