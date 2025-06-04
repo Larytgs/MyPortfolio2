@@ -22,19 +22,21 @@ app.use(
   })
 );
 
-// Criar o middleware para permitir requisição externa
-app.use((req, res, next) => {
-  // Qualquer endereço pode fazer requisição
-  res.header("Access-Control-Allow-Origin", "*");
-  // Tipos de método que a API aceita
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
-  // Permitir o envio de dados para API
-  res.header("Access-Control-Allow-Headers", "Content-Type");
-  // Executar o cors
-  app.use(cors());
-  // Quando não houver erro deve continuar o processamento
-  next();
-});
+//Chat falou que nao precisa desse codigo duplicado a baixo:
+
+// // Criar o middleware para permitir requisição externa
+// app.use((req, res, next) => {
+//   // Qualquer endereço pode fazer requisição
+//   res.header("Access-Control-Allow-Origin", "*");
+//   // Tipos de método que a API aceita
+//   res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE");
+//   // Permitir o envio de dados para API
+//   res.header("Access-Control-Allow-Headers", "Content-Type");
+//   // Executar o cors
+//   app.use(cors());
+//   // Quando não houver erro deve continuar o processamento
+//   next();
+// });
 
 // Criar as rotas
 app.use("/message", mensagens); //quando o usuario colocar mensagem, ele quer acessar a rota mensagens
