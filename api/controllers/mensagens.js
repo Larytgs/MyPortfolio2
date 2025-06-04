@@ -9,11 +9,6 @@ const express = require("express");
 // Incluir conexão com banco de dados
 const db = require("../db/models");
 
-// Add pelo chat
-app.get("/test", async (req, res) => {
-  res.json({ message: "API funcionando!" });
-});
-
 // Chamar a função express
 const router = express.Router(); // Quero somente importar a parte das rotas
 // express.Router() cria um "mini app" do Express, útil para definir rotas separadas em arquivos diferentes.
