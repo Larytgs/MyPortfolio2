@@ -11,6 +11,25 @@ const app = express();
 // Incluir os Controllers
 const mensagens = require("./controllers/mensagens");
 
+// Add pelo chat
+// Add pelo chat
+const allowedOrigins = [
+  "https://meusite.com", // produção
+  "http://localhost:5173", // desenvolvimento local
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+  })
+);
+
 // Criar o middleware para receber os dados no corpo da requisicao
 // Middlewar é uma instrução que vai ser executada antes de acessara rota
 app.use(express.json());
