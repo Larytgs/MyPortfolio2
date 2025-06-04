@@ -50,7 +50,7 @@ const Formulario = () => {
 
     // Fazer a requisição para o servidor utilizando axios, indicando o método da requisição, o endereço, enviar os dados do formulário e o cabeçalho
     await axios
-      .post("http://localhost:8080/message", data, headers)
+      .post("https://api.meusite.com/message", data, headers)
       .then((response) => {
         // acessa o then qnd a API retornar status 200
         // Atribuir a msg no state mensage

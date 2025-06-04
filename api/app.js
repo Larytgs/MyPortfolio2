@@ -16,7 +16,11 @@ const mensagens = require("./controllers/mensagens");
 app.use(express.json());
 
 // Middleware: permitir requisições externas com CORS (coloque isso sozinho)
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://api.meusite.com",
+  })
+);
 
 // Criar o middleware para permitir requisição externa
 app.use((req, res, next) => {
@@ -35,7 +39,8 @@ app.use((req, res, next) => {
 // Criar as rotas
 app.use("/message", mensagens); //quando o usuario colocar mensagem, ele quer acessar a rota mensagens
 
-// Iniciaro servidor na porta 8080
-app.listen(8080, () => {
-  console.log("Servidor iniciado na porta 8080: http://localhost:8080");
-});
+// // Iniciaro servidor na porta 8080
+// app.listen(8080, () => {
+//   console.log("Servidor iniciado na porta 8080: http://localhost:8080");
+// });
+module.exports = app;

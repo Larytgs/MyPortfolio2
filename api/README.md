@@ -13,9 +13,13 @@ Rodar o projeto usando nodemon:
 
 ### node app.js
 
-Abrir o endereço no navegador para acessar a página inicial:
+Abrir o endereço no navegador para acessar a página inicial localmente:
 
 ### http://localhost:8080
+
+Mas estou colocando nesse:
+
+### https://api.meusite.com
 
 Instalar a dependencia de forma global, "-g" significa globalmente.
 Executar o comando atraves do prompt de comando, executar somente se
