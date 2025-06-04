@@ -1,10 +1,21 @@
+Como rodar o projeto baixado:
+
+### npm i
+
+Criar a base de dados no MySQL
+Alterar as credenciais do BD no arquivo ".env"
+
+Executar as migrations:
+
+### npx sequelize-cli db:migrate
+
+Rodar o projeto usando nodemon:
+
+### node app.js
+
 Abrir o endereço no navegador para acessar a página inicial:
 
 ### http://localhost:8080
-
-Rodar o projeto:
-
-### node app.js
 
 Instalar a dependencia de forma global, "-g" significa globalmente.
 Executar o comando atraves do prompt de comando, executar somente se

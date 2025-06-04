@@ -2,6 +2,8 @@
 // Gerencia as requisições, rotas e URLs, entre outra funcionalidades
 
 // Importando o modulo express, Ele facilita a criação de servidores HTTP, gerencia rotas, requisições e respostas, etc.
+/* eslint-env node */
+
 const express = require("express");
 
 // Incluir conexão com banco de dados
@@ -22,14 +24,17 @@ router.post("/", async (req, res) => {
       return res.json({
         error: false,
         mensagem: "Mensagem cadastrada com sucesso!",
-        data, // Para ver se esta recebendo realmente os dados
+        dataMessage, // Para ver se esta recebendo realmente os dados
       });
     })
-    .catch(() => {
+    .catch((err) => {
+      console.error(err); // Mostra o erro no terminal
+
       // req: requesição res: resposta
       return res.json({
         error: false,
         mensagem: "Mensagem NÂO cadastrada com sucesso!",
+        detalhes: err.message, // Para ver o erro específico
       });
     });
 });
