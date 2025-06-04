@@ -5,7 +5,7 @@
 /* eslint-env node */
 
 const express = require("express");
-const app = express();
+
 // Incluir conexão com banco de dados
 const db = require("../db/models");
 
@@ -40,4 +40,4 @@ router.post("/", async (req, res) => {
 });
 
 // Exportar a instrução que esta dentro da constante router
-module.exports = app;
+module.exports = router;
