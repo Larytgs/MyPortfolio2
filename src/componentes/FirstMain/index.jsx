@@ -117,7 +117,7 @@ function Firstmain() {
         {/* Educação */}
         <section className="col-span-12">
           <motion.div
-            className="flex relative w-full justify-center mt-20 mb-16"
+            className="flex relative w-full justify-center mt-20 mb-24"
             initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
             whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
             transition={{
@@ -125,19 +125,30 @@ function Firstmain() {
               delay: 0.2,
               ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
             }}
-            viewport={{ once: true }} // Só anima uma vez ao entrar na viewport
+            viewport={{ once: false }} // anima toda vez ao entrar na viewport
           >
-            <h3 className="absolute uppercase text-[#414040] text-xl font-bold sm:text-3xl">
+            <h3 className="absolute uppercase text-[#414040] text-xl font-bold sm:text-3xl md:text-4xl">
               Cursos Complementares
             </h3>
-            <h3 className="absolute uppercase mt-2 text-xl text-[#6ad0ff] font-bold sm:text-3xl ">
+            <h3 className="absolute uppercase mt-2 text-xl text-[#6ad0ff] font-bold sm:text-3xl md:text-4xl">
               Educação
             </h3>
           </motion.div>
+
+          {/* Todos cursos */}
           <ul className="flex flex-col items-center">
-            <li
+            {/* Pós */}
+            <motion.li
               className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
                           sm:h-20"
+              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+              transition={{
+                duration: 1.5,
+                delay: 0.5,
+                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+              }}
+              viewport={{ once: false }} // anima toda vez ao entrar na viewport
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
@@ -167,11 +178,19 @@ function Firstmain() {
                   - Faculdade Anhanguera
                 </span>
               </h5>
-            </li>
+            </motion.li>
 
-            <li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
-                          sm:h-20"
+            {/* API com Postman */}
+            <motion.li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
+              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+              transition={{
+                duration: 1.5,
+                delay: 0.5,
+                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+              }}
+              viewport={{ once: false }} // anima toda vez ao entrar na viewport
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
@@ -202,11 +221,19 @@ function Firstmain() {
                   - Udemy
                 </span>
               </h5>
-            </li>
+            </motion.li>
 
-            <li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
-                          sm:h-20"
+            {/* HTML CSS */}
+            <motion.li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
+              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+              transition={{
+                duration: 1.5,
+                delay: 0.5,
+                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+              }}
+              viewport={{ once: false }} // anima toda vez ao entrar na viewport
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
@@ -237,11 +264,19 @@ function Firstmain() {
                   - Curso em Video
                 </span>
               </h5>
-            </li>
+            </motion.li>
 
-            <li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
-                          sm:h-20"
+            {/* JS */}
+            <motion.li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
+              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+              transition={{
+                duration: 1.5,
+                delay: 0.2,
+                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+              }}
+              viewport={{ once: false }} // anima toda vez ao entrar na viewport
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
@@ -272,11 +307,19 @@ function Firstmain() {
                   - Curso em Video
                 </span>
               </h5>
-            </li>
+            </motion.li>
 
-            <li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
-                          sm:h-20"
+            {/* Excel */}
+            <motion.li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
+              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+              transition={{
+                duration: 1.5,
+                delay: 0.5,
+                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+              }}
+              viewport={{ once: false }} // anima toda vez ao entrar na viewport
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
@@ -307,11 +350,19 @@ function Firstmain() {
                   - Curso em Video
                 </span>
               </h5>
-            </li>
+            </motion.li>
 
-            <li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
-                          sm:h-20"
+            {/* 1º Facul */}
+            <motion.li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
+              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+              transition={{
+                duration: 1.5,
+                delay: 0.5,
+                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+              }}
+              viewport={{ once: false }} // anima toda vez ao entrar na viewport
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
@@ -342,7 +393,7 @@ function Firstmain() {
                   - Faculdade Anhanguera
                 </span>
               </h5>
-            </li>
+            </motion.li>
           </ul>
         </section>
 
