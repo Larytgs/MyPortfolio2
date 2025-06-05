@@ -130,11 +130,21 @@ function Firstmain() {
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <FontAwesomeIcon
-                    icon={faBriefcase}
-                    size="lg"
-                    color="#6ad0ff"
-                  />
+                  <div
+                    style={{
+                      background:
+                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      padding: "8px", // controla o espaço ao redor do ícone
+                      width: "40px",
+                      height: "40px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
+                  </div>
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold items-start">
                   2025
@@ -154,11 +164,21 @@ function Firstmain() {
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <FontAwesomeIcon
-                    icon={faBriefcase}
-                    size="lg"
-                    color="#6ad0ff"
-                  />
+                  <div
+                    style={{
+                      background:
+                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      padding: "8px", // controla o espaço ao redor do ícone
+                      width: "40px",
+                      height: "40px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
+                  </div>
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
@@ -179,11 +199,21 @@ function Firstmain() {
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <FontAwesomeIcon
-                    icon={faBriefcase}
-                    size="lg"
-                    color="#6ad0ff"
-                  />
+                  <div
+                    style={{
+                      background:
+                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      padding: "8px", // controla o espaço ao redor do ícone
+                      width: "40px",
+                      height: "40px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
+                  </div>
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
@@ -204,11 +234,21 @@ function Firstmain() {
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <FontAwesomeIcon
-                    icon={faBriefcase}
-                    size="lg"
-                    color="#6ad0ff"
-                  />
+                  <div
+                    style={{
+                      background:
+                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      padding: "8px", // controla o espaço ao redor do ícone
+                      width: "40px",
+                      height: "40px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
+                  </div>
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
@@ -229,11 +269,21 @@ function Firstmain() {
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <FontAwesomeIcon
-                    icon={faBriefcase}
-                    size="lg"
-                    color="#6ad0ff"
-                  />
+                  <div
+                    style={{
+                      background:
+                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      padding: "8px", // controla o espaço ao redor do ícone
+                      width: "40px",
+                      height: "40px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
+                  </div>
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
@@ -254,11 +304,21 @@ function Firstmain() {
             >
               <div className="flex items-center relative">
                 <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <FontAwesomeIcon
-                    icon={faBriefcase}
-                    size="lg"
-                    color="#6ad0ff"
-                  />
+                  <div
+                    style={{
+                      background:
+                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
+                      borderRadius: "50%",
+                      display: "inline-flex",
+                      padding: "8px", // controla o espaço ao redor do ícone
+                      width: "40px",
+                      height: "40px",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  >
+                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
+                  </div>
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
