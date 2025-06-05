@@ -117,16 +117,19 @@ function Firstmain() {
         <section className="col-span-12">
           <Subtitulo className="text-center mt-16">Educação</Subtitulo>
           <ul className="flex flex-col items-center">
-            <li className=" pl-5 mb-7 h-20 w-full max-w-[600px]">
+            <li
+              className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
+                          sm:h-20"
+            >
               <div className="flex items-center relative">
-                <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full  -left-10 top-0">
+                <span className="absolute bg-[var(--main-color)] w-10 h-8 flex justify-center items-center rounded-full  -left-10 top-0">
                   <FontAwesomeIcon
                     icon={faBriefcase}
                     size="lg"
                     color="#6ad0ff"
                   />
                 </span>
-                <p className="mr-5 mb-1 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold items-start">
+                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold items-start">
                   2025
                 </p>
               </div>
@@ -138,9 +141,12 @@ function Firstmain() {
               </h5>
             </li>
 
-            <li className=" pl-5 mb-7 h-20 w-full max-w-[600px]">
+            <li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
+                          sm:h-20"
+            >
               <div className="flex items-center relative">
-                <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full  -left-10 top-0">
+                <span className="absolute bg-[var(--main-color)] w-10 h-8 flex justify-center items-center rounded-full  -left-10 top-0">
                   <FontAwesomeIcon
                     icon={faBriefcase}
                     size="lg"
@@ -148,7 +154,7 @@ function Firstmain() {
                   />
                   <img src="" alt="" />
                 </span>
-                <p className="mr-5 mb-1 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2021
                 </p>
               </div>
