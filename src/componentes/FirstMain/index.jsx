@@ -398,7 +398,17 @@ function Firstmain() {
         </section>
 
         {/* Botoes */}
-        <div className="col-span-12 mt-14 inline-block flex-wrap w-full items-center">
+        <motion.div
+          className="col-span-12 mt-14 inline-block flex-wrap w-full items-center"
+          initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+          whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+          transition={{
+            duration: 1,
+            delay: 0.2,
+            ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+          }}
+          viewport={{ once: false }} // anima toda vez ao entrar na viewport>
+        >
           <Ul>
             <Lista>
               <Button onClick={() => toggleSection("presentation")}>
@@ -421,7 +431,7 @@ function Firstmain() {
               </Button>
             </Lista>
           </Ul>
-        </div>
+        </motion.div>
 
         {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
         <div className="col-span-12 mt-4 sm:mt-10">
