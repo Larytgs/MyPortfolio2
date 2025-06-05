@@ -122,7 +122,7 @@ function Firstmain() {
                           sm:h-20"
             >
               <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-8 flex justify-center items-center rounded-full  -left-10 top-0">
+                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
                   <FontAwesomeIcon
                     icon={faBriefcase}
                     size="lg"
@@ -146,7 +146,7 @@ function Firstmain() {
                           sm:h-20"
             >
               <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-8 flex justify-center items-center rounded-full  -left-10 top-0">
+                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
                   <FontAwesomeIcon
                     icon={faBriefcase}
                     size="lg"
