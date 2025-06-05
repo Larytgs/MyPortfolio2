@@ -50,7 +50,7 @@ const Formulario = () => {
 
     // Fazer a requisição para o servidor utilizando axios, indicando o método da requisição, o endereço, enviar os dados do formulário e o cabeçalho
     await axios
-      .post("http://localhost:8080/message", data, headers)
+      .post(`${process.env.REACT_APP_API_URL}/message`, data, headers)
       .then((response) => {
         // acessa o then qnd a API retornar status 200
         // Atribuir a msg no state mensage
@@ -82,6 +82,7 @@ const Formulario = () => {
             placeholder="Seu nome"
             //onChange={(e) => setData({ ...data, name: e.target.value })}
             onChange={valorInput}
+            required //campo obrigatório (não permite enviar vazio)
             //Criar o campo, quando o usuário digitar valor no campo, chamar com onChange a funcao valorInput
             // onChange={...} : Esse é um evento quando o valor do input muda (o usuário digita, apaga, cola..)
             // (e) => : Essa é uma função anônima que recebe o evento (geralmente chamado de e ou event)
@@ -91,18 +92,21 @@ const Formulario = () => {
             name="email"
             placeholder="Seu e-mail"
             onChange={valorInput}
+            required //campo obrigatório (não permite enviar vazio)
           />
           <Input
             type="text"
             name="telefone"
             placeholder="Seu número"
             onChange={valorInput}
+            required //campo obrigatório (não permite enviar vazio)
           />
           <Input
             type="text"
             name="assunto"
             placeholder="Assunto"
             onChange={valorInput}
+            required //campo obrigatório (não permite enviar vazio)
           />
         </div>
 
