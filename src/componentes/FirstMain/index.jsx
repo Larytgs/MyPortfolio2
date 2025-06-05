@@ -134,7 +134,7 @@ function Firstmain() {
                 </p>
               </div>
               <h5 className="text-sm uppercase font-bold ml-5">
-                Pós-graduação em Desenvolvimento Front-end
+                Pós em Desenvolvimento Front-end
                 <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
                   - Faculdade Anhanguera
                 </span>
