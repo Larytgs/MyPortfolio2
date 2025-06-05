@@ -115,7 +115,14 @@ function Firstmain() {
 
         {/* Educação */}
         <section className="col-span-12">
-          <Subtitulo className="text-center mt-16">Educação</Subtitulo>
+          <div className="flex relative w-[100%] justify-center mt-16 mb-16">
+            <h3 className="absolute uppercase text-[#414040] text-xl font-bold sm:text-3xl">
+              Cursos Complementares
+            </h3>
+            <h3 className="absolute uppercase mt-2 text-xl text-[#6ad0ff] font-bold sm:text-3xl ">
+              Educação
+            </h3>
+          </div>
           <ul className="flex flex-col items-center">
             <li
               className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
