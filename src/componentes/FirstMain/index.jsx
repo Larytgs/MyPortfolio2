@@ -7,6 +7,10 @@ import "../../index.css";
 //import StarryBackground from "../Star/StarryBackground.jsx";
 import { Typewriter } from "react-simple-typewriter";
 
+// Icone para "educação"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
 // import Formulario from "../pages/formulario.jsx";
@@ -112,18 +116,21 @@ function Firstmain() {
         {/* Educação */}
         <section className="col-span-12">
           <Subtitulo className="text-center mt-16">Educação</Subtitulo>
-          <ul className="text-center">
-            <li className="border-1 pl-5 mb-7 h-20">
+          <ul className="flex flex-col items-center">
+            <li className=" pl-5 mb-7 h-20 w-full max-w-[600px]">
               <div className="flex items-center relative">
                 <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full absolute -left-10 top-0">
-                  <i class="fa-solid fa-briefcase"></i>
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    size="lg"
+                    color="#6ad0ff"
+                  />
                 </span>
                 <p className="mx-5 mb-5 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2025
                 </p>
               </div>
-
-              <h5 className="text-lg uppercase font-bold ml-5">
+              <h5 className="text-sm uppercase font-bold ml-5">
                 Pós-graduação em Desenvolvimento Front-end
                 <span className="text-[var(--light-gray)] opacity-80 text-[15px]">
                   - Faculdade Anhanguera
@@ -131,17 +138,21 @@ function Firstmain() {
               </h5>
             </li>
 
-            <li className="border-1 pl-5 mb-7 h-20">
+            <li className=" pl-5 mb-7 h-20 w-full max-w-[600px]">
               <div className="flex items-center relative">
                 <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full absolute -left-10 top-0">
-                  <i class="fa-solid fa-briefcase"></i>
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    size="lg"
+                    color="#6ad0ff"
+                  />
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-5 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2021
                 </p>
               </div>
-              <h5 className="text-lg uppercase font-bold ml-5">
+              <h5 className="text-sm uppercase font-bold ml-5">
                 Tecnólogo em Análise e Desenvolvimento de Sistemas
                 <span className="text-[var(--light-gray)] opacity-80 text-[15px]">
                   - Faculdade Anhanguera
