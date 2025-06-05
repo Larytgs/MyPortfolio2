@@ -1,12 +1,23 @@
 import Subtitulo from "../styles/Subtitulo";
 import Section, { Text } from "../styles/Section";
 
+import { motion } from "framer-motion";
+
 function Presentation() {
   return (
     <Section>
-      <section
+      <motion.section
         className="col-span-12 m-auto gap-7
         md:flex"
+        // Animação para a section cair suavemente:
+        initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+        whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+        transition={{
+          duration: 1.5,
+          delay: 0.2,
+          ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+        }}
+        viewport={{ once: false }} // anima toda vez ao entrar na viewport>
       >
         <figure
           className="m-auto cursor-zoom-in transition-transform duration-500 hover:scale-110
@@ -61,7 +72,7 @@ function Presentation() {
             </li>
           </ul> */}
         </div>
-      </section>
+      </motion.section>
     </Section>
   );
 }
