@@ -162,6 +162,106 @@ function Firstmain() {
                   <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                  2025
+                </p>
+              </div>
+              <h5 className="text-sm uppercase font-bold ml-5">
+                API com postman - 2h
+                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
+                  - Udemy
+                </span>
+              </h5>
+            </li>
+
+            <li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
+                          sm:h-20"
+            >
+              <div className="flex items-center relative">
+                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    size="lg"
+                    color="#6ad0ff"
+                  />
+                  <img src="" alt="" />
+                </span>
+                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                  2024
+                </p>
+              </div>
+              <h5 className="text-sm uppercase font-bold ml-5">
+                HTML5 e CSS3 – Módulos 1, 2, 3 e 4 – 160h
+                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
+                  - Curso em Video
+                </span>
+              </h5>
+            </li>
+
+            <li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
+                          sm:h-20"
+            >
+              <div className="flex items-center relative">
+                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    size="lg"
+                    color="#6ad0ff"
+                  />
+                  <img src="" alt="" />
+                </span>
+                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                  2024
+                </p>
+              </div>
+              <h5 className="text-sm uppercase font-bold ml-5">
+                JavaScript – 40h
+                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
+                  - Curso em Video
+                </span>
+              </h5>
+            </li>
+
+            <li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
+                          sm:h-20"
+            >
+              <div className="flex items-center relative">
+                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    size="lg"
+                    color="#6ad0ff"
+                  />
+                  <img src="" alt="" />
+                </span>
+                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                  2023
+                </p>
+              </div>
+              <h5 className="text-sm uppercase font-bold ml-5">
+                Excel - 40h
+                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
+                  - Curso em Video
+                </span>
+              </h5>
+            </li>
+
+            <li
+              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
+                          sm:h-20"
+            >
+              <div className="flex items-center relative">
+                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
+                  <FontAwesomeIcon
+                    icon={faBriefcase}
+                    size="lg"
+                    color="#6ad0ff"
+                  />
+                  <img src="" alt="" />
+                </span>
+                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2021
                 </p>
               </div>

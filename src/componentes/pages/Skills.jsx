@@ -24,6 +24,14 @@ function Skills() {
             Além disso, sou proativa, resolvo problemas de forma eficaz e
             valorizo o trabalho em equipe para entregar resultados de alta
             qualidade.
+            <br />
+            Organizo meus projetos com base em princípios ágeis, como
+            planejamento por etapas curtas, entregar contínuas e adaptação
+            rápida as necessidades do cliente.
+            <br />
+            Embora ainda não tenha atuado com equipes em Scrum, busco aplicar na
+            prática os valores da agilidade para manter foco, eficiência e
+            qualidade nas entregas.
           </Text>
           <ul className="m-5">
             <li>
