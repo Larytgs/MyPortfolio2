@@ -10,6 +10,7 @@ import { Typewriter } from "react-simple-typewriter";
 // Icone para "educação"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+// Para funcionar a animação:
 import { motion } from "framer-motion";
 
 import Header from "../Header/index.jsx";
@@ -54,7 +55,7 @@ function Firstmain() {
                 </span>
               </H1>
               <br />
-              {/* Down e "Transformando sonhos" */}
+              {/* Curriculo e "Transformando sonhos..." */}
               <div
                 className="block gap-4 text-center pl-5 
               lg:items-center lg:flex"
@@ -82,6 +83,7 @@ function Firstmain() {
               </div>
             </article>
           </article>
+
           {/* Minha foto */}
           <figure className="relative m-auto max-md:text-center">
             <img
@@ -116,6 +118,7 @@ function Firstmain() {
 
         {/* Educação */}
         <section className="col-span-12">
+          {/* Titulo */}
           <motion.div
             className="flex relative w-full justify-center mt-20 mb-24"
             initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
