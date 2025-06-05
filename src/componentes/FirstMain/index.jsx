@@ -112,31 +112,39 @@ function Firstmain() {
         <section className="col-span-12">
           <h4 class="about-me-titles">Educação</h4>
           <ul class="education">
-            <li class="item">
-              <div class="year">
-                <span>
+            <li className="border-1 pl-5 mb-7 h-20">
+              <div className="flex items-center relative">
+                <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full absolute -left-10 top-0">
                   <i class="fa-solid fa-briefcase"></i>
                 </span>
-                <p>2025</p>
+                <p className="mx-5 mb-5 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                  2025
+                </p>
               </div>
 
-              <h5>
+              <h5 className="text-lg uppercase font-bold ml-5">
                 Pós-graduação em Desenvolvimento Front-end
-                <span>- Faculdade Anhanguera</span>
+                <span className="text-[var(--light-gray)] opacity-80 text-[15px]">
+                  - Faculdade Anhanguera
+                </span>
               </h5>
             </li>
 
-            <li class="item">
-              <div class="year">
-                <span>
+            <li className="border-1 pl-5 mb-7 h-20">
+              <div className="flex items-center relative">
+                <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full absolute -left-10 top-0">
                   <i class="fa-solid fa-briefcase"></i>
                   <img src="" alt="" />
                 </span>
-                <p>2021</p>
+                <p className="mx-5 mb-5 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
+                  2021
+                </p>
               </div>
-              <h5>
+              <h5 className="text-lg uppercase font-bold ml-5">
                 Tecnólogo em Análise e Desenvolvimento de Sistemas
-                <span>- Faculdade Anhanguera</span>
+                <span className="text-[var(--light-gray)] opacity-80 text-[15px]">
+                  - Faculdade Anhanguera
+                </span>
               </h5>
             </li>
           </ul>
