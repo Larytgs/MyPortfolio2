@@ -136,7 +136,7 @@ function Firstmain() {
           </motion.div>
 
           {/* Todos cursos */}
-          <ul className="flex flex-col items-center">
+          <ul className="flex flex-col items-center mx-5">
             {/* Pós */}
             <motion.li
               className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
