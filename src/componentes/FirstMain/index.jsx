@@ -108,6 +108,40 @@ function Firstmain() {
           </div>
         </section>
 
+        {/* Educação */}
+        <section className="col-span-12">
+          <h4 class="about-me-titles">Educação</h4>
+          <ul class="education">
+            <li class="item">
+              <div class="year">
+                <span>
+                  <i class="fa-solid fa-briefcase"></i>
+                </span>
+                <p>2025</p>
+              </div>
+
+              <h5>
+                Pós-graduação em Desenvolvimento Front-end
+                <span>- Faculdade Anhanguera</span>
+              </h5>
+            </li>
+
+            <li class="item">
+              <div class="year">
+                <span>
+                  <i class="fa-solid fa-briefcase"></i>
+                  <img src="" alt="" />
+                </span>
+                <p>2021</p>
+              </div>
+              <h5>
+                Tecnólogo em Análise e Desenvolvimento de Sistemas
+                <span>- Faculdade Anhanguera</span>
+              </h5>
+            </li>
+          </ul>
+        </section>
+
         {/* Botoes */}
         <div className="col-span-12 mt-14 inline-block flex-wrap w-full items-center">
           <Ul>
