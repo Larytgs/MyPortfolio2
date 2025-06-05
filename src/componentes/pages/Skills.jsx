@@ -2,14 +2,23 @@ import Subtitulo from "../styles/Subtitulo";
 import Section, { Text, SkillWrapper, Card2 } from "../styles/Section";
 
 import { Typewriter } from "react-simple-typewriter";
+import { motion } from "framer-motion";
 
 //Habilidades
 function Skills() {
   return (
     <Section>
-      <div
+      <motion.div
         className="col-span-12 gap-7 m-auto
         md:flex"
+        initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+        whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+        transition={{
+          duration: 1,
+          delay: 0.2,
+          ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+        }}
+        viewport={{ once: false }} // anima toda vez ao entrar na viewport>
       >
         <div className="text-center">
           <Subtitulo>Aprendizado Contínuo.</Subtitulo>
@@ -73,9 +82,20 @@ function Skills() {
         >
           <img src="/img/html-css-js.jpg" alt="" />
         </figure>
-      </div>
+      </motion.div>
 
-      <section className="col-span-12 text-center mt-24 m-auto">
+      <motion.section
+        className="col-span-12 text-center mt-24 m-auto"
+        // Animação para a section cair suavemente:
+        initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+        whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+        transition={{
+          duration: 1,
+          delay: 0.2,
+          ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+        }}
+        viewport={{ once: false }} // anima toda vez ao entrar na viewport>
+      >
         <div className="mb-2 text-2xl text-[#6ad0ff] font-bold sm:text-3xl">
           <Typewriter
             words={["Conhecimentos e ferramentas"]}
@@ -231,7 +251,7 @@ function Skills() {
             </Card2>
           </div>
         </div>
-      </section>
+      </motion.section>
     </Section>
   );
 }
