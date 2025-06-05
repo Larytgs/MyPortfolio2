@@ -97,10 +97,7 @@ function Skills() {
           >
             {/* cada card o h3 e o p */}
             {/* HTML */}
-            <Card2
-              className="relative border border-transparent hover:border hover:border-solid hover:border-[#E44D26]
-            "
-            >
+            <Card2 className="hover:border-[#E44D26]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/html5-original.svg"
@@ -112,7 +109,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* CSS */}
-            <Card2 className="relative text-center border border-transparent hover:border hover:border-solid hover:border-[#238CC8]">
+            <Card2 className="hover:border-[#238CC8]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/css3-original.svg"
@@ -124,7 +121,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* JS */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F0DB4F]">
+            <Card2 className="hover:border-[#F0DB4F]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/javascript-original.svg"
@@ -137,7 +134,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* React */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#61DAFB]">
+            <Card2 className="hover:border-[#61DAFB]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/react-original.svg"
@@ -145,7 +142,7 @@ function Skills() {
               />
             </Card2>
             {/* Vite */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#006BFF]">
+            <Card2 className="hover:border-[#006BFF]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/vitejs-original.svg"
@@ -153,7 +150,7 @@ function Skills() {
               />
             </Card2>
             {/* PHP */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#777BB3]">
+            <Card2 className="hover:border-[#777BB3]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/php-original.svg"
@@ -161,7 +158,7 @@ function Skills() {
               />
             </Card2>
             {/* MySQL */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#00618A]">
+            <Card2 className="hover:border-[#00618A]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/mysql-original.svg"
@@ -169,7 +166,7 @@ function Skills() {
               />
             </Card2>
             {/* GIT */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F34F29]">
+            <Card2 className="hover:border-[#F34F29]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/git-original.svg"
@@ -181,7 +178,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* Github */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#696969]">
+            <Card2 className="hover:border-[#696969]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/github-original.png"
@@ -194,7 +191,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* Postman */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#F37036]">
+            <Card2 className="hover:border-[#F37036]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/postman-original.svg"
@@ -207,7 +204,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* tailwindcss */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#38BDF8]">
+            <Card2 className="hover:border-[#38BDF8]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/tailwindcss-original.svg"
@@ -221,7 +218,7 @@ function Skills() {
               </P> */}
             </Card2>
             {/* VSCODE */}
-            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#25AEF3]">
+            <Card2 className="hover:border-[#25AEF3]">
               <img
                 className="w-12 inline"
                 src="/img/logo/conhecimentos/vscode-original.svg"

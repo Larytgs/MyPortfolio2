@@ -86,6 +86,23 @@ body {
   }
 }
 
+.card2::before,
+.card2::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: calc(100% + 1px);
+  height: calc(100% + 1px);
+  border-radius: 50%;
+  background: linear-gradient(
+    45deg,
+    var(--dark-color),
+    var(--dark-color),
+    var(--main-color)
+  );
+  animation: loading 6s linear infinite;
+}
+
 /*H3 dos Projetos - Projects.jsx*/
 .card-title {
   position: absolute;
