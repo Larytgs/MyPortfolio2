@@ -86,7 +86,7 @@ body {
   }
 }
 
-.card2::before,
+/* .card2::before,
 .card2::after {
   content: "";
   position: absolute;
@@ -101,7 +101,7 @@ body {
     var(--main-color)
   );
   animation: loading 6s linear infinite;
-}
+} */
 
 /*H3 dos Projetos - Projects.jsx*/
 .card-title {
