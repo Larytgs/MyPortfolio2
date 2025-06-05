@@ -10,6 +10,7 @@ import { Typewriter } from "react-simple-typewriter";
 // Icone para "educação"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
@@ -115,14 +116,24 @@ function Firstmain() {
 
         {/* Educação */}
         <section className="col-span-12">
-          <div className="flex relative w-[100%] justify-center mt-16 mb-16">
+          <motion.div
+            className="flex relative w-full justify-center mt-20 mb-16"
+            initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
+            whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+            transition={{
+              duration: 1.5,
+              delay: 0.2,
+              ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+            }}
+            viewport={{ once: true }} // Só anima uma vez ao entrar na viewport
+          >
             <h3 className="absolute uppercase text-[#414040] text-xl font-bold sm:text-3xl">
               Cursos Complementares
             </h3>
             <h3 className="absolute uppercase mt-2 text-xl text-[#6ad0ff] font-bold sm:text-3xl ">
               Educação
             </h3>
-          </div>
+          </motion.div>
           <ul className="flex flex-col items-center">
             <li
               className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
