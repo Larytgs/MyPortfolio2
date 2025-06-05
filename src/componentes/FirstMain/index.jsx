@@ -251,7 +251,6 @@ function Firstmain() {
                   >
                     <FontAwesomeIcon icon={faBriefcase} size="lg" />
                   </div>
-                  <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2024
@@ -294,7 +293,6 @@ function Firstmain() {
                   >
                     <FontAwesomeIcon icon={faBriefcase} size="lg" />
                   </div>
-                  <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2024
@@ -337,7 +335,6 @@ function Firstmain() {
                   >
                     <FontAwesomeIcon icon={faBriefcase} size="lg" />
                   </div>
-                  <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2023
@@ -380,7 +377,6 @@ function Firstmain() {
                   >
                     <FontAwesomeIcon icon={faBriefcase} size="lg" />
                   </div>
-                  <img src="" alt="" />
                 </span>
                 <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
                   2021
