@@ -1,5 +1,6 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
+import Subtitulo from "../styles/Subtitulo";
 import { Presentation, Skills, Projects } from "../pages/index.jsx";
 import Button, { H1, Lista, Ul } from "./StyleF.jsx";
 import "../../index.css";
@@ -110,8 +111,8 @@ function Firstmain() {
 
         {/* Educação */}
         <section className="col-span-12">
-          <h4 class="about-me-titles">Educação</h4>
-          <ul class="education">
+          <Subtitulo className="text-center mt-16">Educação</Subtitulo>
+          <ul className="text-center">
             <li className="border-1 pl-5 mb-7 h-20">
               <div className="flex items-center relative">
                 <span className="bg-[var(--main-color)] w-10 h-10 flex justify-center items-center rounded-full absolute -left-10 top-0">
