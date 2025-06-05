@@ -1,6 +1,8 @@
+// Estilizaçoes
 import Subtitulo from "../styles/Subtitulo";
 import Section, { Text } from "../styles/Section";
 
+// Animação para descer titulos/sections com delay
 import { motion } from "framer-motion";
 
 function Presentation() {

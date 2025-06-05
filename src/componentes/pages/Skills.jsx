@@ -1,7 +1,10 @@
+// Estilizaçoes
 import Subtitulo from "../styles/Subtitulo";
 import Section, { Text, SkillWrapper, Card2 } from "../styles/Section";
 
+// Animação de digitar
 import { Typewriter } from "react-simple-typewriter";
+// Animação para descer titulos/sections com delay
 import { motion } from "framer-motion";
 
 //Habilidades

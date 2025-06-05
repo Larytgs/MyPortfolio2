@@ -1,21 +1,23 @@
 // import { Link } from "react-router-dom";
 import { useState } from "react";
-import Subtitulo from "../styles/Subtitulo";
+
+// Estilizaçoes
 import { Presentation, Skills, Projects } from "../pages/index.jsx";
 import Button, { H1, Lista, Ul } from "./StyleF.jsx";
-import "../../index.css";
-//import StarryBackground from "../Star/StarryBackground.jsx";
-import { Typewriter } from "react-simple-typewriter";
-
-// Icone para "educação"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
-// Para funcionar a animação:
-import { motion } from "framer-motion";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
 // import Formulario from "../pages/formulario.jsx";
+//import StarryBackground from "../Star/StarryBackground.jsx";
+
+// Animação de digitar
+import { Typewriter } from "react-simple-typewriter";
+// Animação para descer titulos/sections com delay
+import { motion } from "framer-motion";
+
+// Icone para "educação"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
@@ -130,10 +132,10 @@ function Firstmain() {
             }}
             viewport={{ once: false }} // anima toda vez ao entrar na viewport
           >
-            <h3 className="absolute uppercase text-[#414040] text-xl font-bold sm:text-3xl md:text-4xl">
+            <h3 className="absolute uppercase text-[#414040] text-2xl font-bold sm:text-3xl md:text-4xl">
               Cursos Complementares
             </h3>
-            <h3 className="absolute uppercase mt-2 text-xl text-[#6ad0ff] font-bold sm:text-3xl md:text-4xl">
+            <h3 className="absolute uppercase mt-2 text-2xl text-[#6ad0ff] font-bold sm:text-3xl md:text-4xl">
               Educação
             </h3>
           </motion.div>
