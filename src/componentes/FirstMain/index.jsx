@@ -135,7 +135,7 @@ function Firstmain() {
             <h3 className="absolute uppercase text-[#414040] text-2xl font-bold sm:text-3xl md:text-4xl">
               Cursos Complementares
             </h3>
-            <h3 className="absolute uppercase mt-2 text-2xl text-[#6ad0ff] font-bold sm:text-3xl md:text-4xl">
+            <h3 className="absolute uppercase mt-3 text-2xl text-[#6ad0ff] font-bold sm:text-3xl md:text-4xl">
               Educação
             </h3>
           </motion.div>
