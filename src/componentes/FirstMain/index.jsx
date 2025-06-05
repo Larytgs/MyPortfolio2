@@ -59,7 +59,7 @@ function Firstmain() {
               <br />
               {/* Curriculo e "Transformando sonhos..." */}
               <div
-                className="block gap-4 text-center pl-5 
+                className="block gap-4 text-center  
               lg:items-center lg:flex"
               >
                 <a
@@ -262,7 +262,7 @@ function Firstmain() {
                 </p>
               </div>
               <h5 className="text-sm uppercase font-bold ml-5">
-                HTML5 e CSS3 – Módulos 1, 2, 3 e 4 – 160h
+                HTML5 e CSS3 – Módulos 1, 2, 3, 4 – 160h
                 <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
                   - Curso em Video
                 </span>
