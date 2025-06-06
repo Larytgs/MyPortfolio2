@@ -3,7 +3,7 @@ import { useState } from "react";
 
 // Estilizaçoes
 import { Presentation, Skills, Projects } from "../pages/index.jsx";
-import Button, { H1, Lista, Ul } from "./StyleF.jsx";
+import Button, { H1, Curso, Lista, Ul } from "./StyleF.jsx";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
@@ -143,257 +143,36 @@ function Firstmain() {
           {/* Todos cursos */}
           <ul className="flex flex-col items-center mx-5">
             {/* Pós */}
-            <motion.li
-              className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7
-                          sm:h-20"
-              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
-              transition={{
-                duration: 1,
-                delay: 0.5,
-                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
-              }}
-              viewport={{ once: false }} // anima toda vez ao entrar na viewport
-            >
-              <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <div
-                    style={{
-                      background:
-                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
-                      borderRadius: "50%",
-                      display: "inline-flex",
-                      padding: "8px", // controla o espaço ao redor do ícone
-                      width: "40px",
-                      height: "40px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
-                  </div>
-                </span>
-                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold items-start">
-                  2025
-                </p>
-              </div>
-              <h5 className="text-sm uppercase font-bold ml-5">
-                Pós em Desenvolvimento Front-end
-                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
-                  - Faculdade Anhanguera
-                </span>
-              </h5>
-            </motion.li>
-
-            {/* API com Postman */}
-            <motion.li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
-              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
-              transition={{
-                duration: 1,
-                delay: 0.5,
-                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
-              }}
-              viewport={{ once: false }} // anima toda vez ao entrar na viewport
-            >
-              <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <div
-                    style={{
-                      background:
-                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
-                      borderRadius: "50%",
-                      display: "inline-flex",
-                      padding: "8px", // controla o espaço ao redor do ícone
-                      width: "40px",
-                      height: "40px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
-                  </div>
-                </span>
-                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
-                  2025
-                </p>
-              </div>
-              <h5 className="text-sm uppercase font-bold ml-5">
-                API com postman - 2h
-                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
-                  - Udemy
-                </span>
-              </h5>
-            </motion.li>
-
-            {/* HTML CSS */}
-            <motion.li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
-              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
-              transition={{
-                duration: 1,
-                delay: 0.5,
-                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
-              }}
-              viewport={{ once: false }} // anima toda vez ao entrar na viewport
-            >
-              <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <div
-                    style={{
-                      background:
-                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
-                      borderRadius: "50%",
-                      display: "inline-flex",
-                      padding: "8px", // controla o espaço ao redor do ícone
-                      width: "40px",
-                      height: "40px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
-                  </div>
-                </span>
-                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
-                  2024
-                </p>
-              </div>
-              <h5 className="text-sm uppercase font-bold ml-5">
-                HTML5 e CSS3 – Módulos 1, 2, 3, 4 – 160h
-                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
-                  - Curso em Video
-                </span>
-              </h5>
-            </motion.li>
-
-            {/* JS */}
-            <motion.li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
-              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
-              transition={{
-                duration: 1,
-                delay: 0.2,
-                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
-              }}
-              viewport={{ once: false }} // anima toda vez ao entrar na viewport
-            >
-              <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <div
-                    style={{
-                      background:
-                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
-                      borderRadius: "50%",
-                      display: "inline-flex",
-                      padding: "8px", // controla o espaço ao redor do ícone
-                      width: "40px",
-                      height: "40px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
-                  </div>
-                </span>
-                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
-                  2024
-                </p>
-              </div>
-              <h5 className="text-sm uppercase font-bold ml-5">
-                JavaScript – 40h
-                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
-                  - Curso em Video
-                </span>
-              </h5>
-            </motion.li>
-
-            {/* Excel */}
-            <motion.li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
-              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
-              transition={{
-                duration: 1,
-                delay: 0.5,
-                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
-              }}
-              viewport={{ once: false }} // anima toda vez ao entrar na viewport
-            >
-              <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <div
-                    style={{
-                      background:
-                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
-                      borderRadius: "50%",
-                      display: "inline-flex",
-                      padding: "8px", // controla o espaço ao redor do ícone
-                      width: "40px",
-                      height: "40px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
-                  </div>
-                </span>
-                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
-                  2023
-                </p>
-              </div>
-              <h5 className="text-sm uppercase font-bold ml-5">
-                Excel - 40h
-                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
-                  - Curso em Video
-                </span>
-              </h5>
-            </motion.li>
-
-            {/* 1º Facul */}
-            <motion.li
-              className=" h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
-              initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-              whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
-              transition={{
-                duration: 1,
-                delay: 0.5,
-                ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
-              }}
-              viewport={{ once: false }} // anima toda vez ao entrar na viewport
-            >
-              <div className="flex items-center relative">
-                <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full  -left-10 top-0">
-                  <div
-                    style={{
-                      background:
-                        "linear-gradient(to top, #6ad0ff, #083d73, #083d73, #6ad0ff)",
-                      borderRadius: "50%",
-                      display: "inline-flex",
-                      padding: "8px", // controla o espaço ao redor do ícone
-                      width: "40px",
-                      height: "40px",
-                      justifyContent: "center",
-                      alignItems: "center",
-                    }}
-                  >
-                    <FontAwesomeIcon icon={faBriefcase} size="lg" />
-                  </div>
-                </span>
-                <p className="mx-5 mb-2 px-3.5 py-[7px] text-xs text-[var(--light-gray)] uppercase bg-[rgba(37,37,37,0.44)] rounded-[20px] font-bold">
-                  2021
-                </p>
-              </div>
-              <h5 className="text-sm uppercase font-bold ml-5">
-                Análise e Desenvolvimento de Sistemas
-                <span className="text-[var(--light-gray)] opacity-80 text-[15px] ml-1">
-                  - Faculdade Anhanguera
-                </span>
-              </h5>
-            </motion.li>
+            <Curso
+              year="2025"
+              title="Pós em Desenvolvimento Front-end"
+              institution="Faculdade Anhanguera"
+            />
+            <Curso
+              year="2025"
+              title="API com Postman - 2h"
+              institution="Udemy"
+            />
+            <Curso
+              year="2024"
+              title="HTML5 e CSS3 – Módulos 1, 2, 3, 4 – 160h"
+              institution="Curso em Video"
+            />
+            <Curso
+              year="2024"
+              title="JavaScript – 40h"
+              institution="Curso em Video"
+            />
+            <Curso
+              year="2023"
+              title="Excel - 40h"
+              institution="Curso em Video"
+            />
+            <Curso
+              year="2021"
+              title="Análise e Desenvolvimento de Sistemas"
+              institution="Faculdade Anhanguera"
+            />
           </ul>
         </section>
 
