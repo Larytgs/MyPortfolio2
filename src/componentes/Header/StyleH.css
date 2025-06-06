@@ -1,6 +1,6 @@
 .header {
   text-align: center;
-  background-color: var(--headerFotter);
+  background-color: #05060c;
   padding: 12px;
 
   position: sticky; /*grudavel*/
