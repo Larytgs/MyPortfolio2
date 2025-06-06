@@ -8,6 +8,7 @@ function Projects() {
         <Subtitulo>Projetos</Subtitulo>
 
         <Project className="mb-[-2%]">
+          {/* Site para divulgar o meu trabalho. */}
           <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
@@ -42,6 +43,7 @@ function Projects() {
             </div>
           </div>
 
+          {/* Site para uma Mecânica */}
           <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
@@ -76,6 +78,7 @@ function Projects() {
             </div>
           </div>
 
+          {/* Site de Veterinaria */}
           <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
@@ -107,6 +110,7 @@ function Projects() {
             </div>
           </div>
 
+          {/* Site Biscoitos Decorados. */}
           <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative group">
               <div className="card-proj">
@@ -124,6 +128,39 @@ function Projects() {
                 <TitleH32 className="biscoitos">
                   Site Biscoitos Decorados.
                 </TitleH32>
+              </a>
+            </div>
+            <div>
+              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  HTML5
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  CSS3
+                </li>
+                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
+                  JS
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Conversão de moedas. */}
+          <div className="flex-auto text-center my-3 sm:mx-3">
+            <div className="service-proj relative group">
+              <div className="card-proj">
+                <img
+                  className="rounded-2xl w-[500px]"
+                  src="/img/projetos/siteBiscoitosDecorados.png"
+                  alt="siteBiscoitosDecorados"
+                />
+              </div>
+              <a
+                className="card-title cursor-pointer"
+                href="https://larytgs.github.io/devConverter/"
+                target="_blank"
+              >
+                <TitleH32 className="biscoitos">Conversão de moedas.</TitleH32>
               </a>
             </div>
             <div>
