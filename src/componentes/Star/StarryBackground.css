@@ -1,10 +1,12 @@
 .starry-bg {
+  position: fixed; /* ou absolute, p parar o rolamento bugado*/
   top: 0;
   left: 0;
   top: 0;
   left: 0;
   width: 100vw; /* Ocupa toda a largura da tela */
   z-index: -1; /* Coloca o fundo atrás do conteúdo da página */
+  overflow: hidden; /* Evita scroll extra por estrelas */
 }
 
 .shooting-star {
@@ -35,6 +37,7 @@
 }
 
 /* Estrelas fixas */
+
 .stars,
 .stars2,
 .stars3,
@@ -42,9 +45,8 @@
   position: absolute;
   width: 1px;
   height: 1px;
-  background: white;
-  box-shadow: 0 0 1px white, /* Star near the center */ 10% 10% 1px white,
-    /* Random positions around the screen */ 20% 20% 1px white,
+  background: transparent;
+  box-shadow: 0 0 1px white, 10% 10% 1px white, 20% 20% 1px white,
     30% 30% 1px white, 40% 40% 1px white, 50% 50% 1px white, 60% 60% 1px white,
     70% 70% 1px white, 80% 80% 1px white, 90% 90% 1px white;
 }

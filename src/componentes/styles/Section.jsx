@@ -32,7 +32,7 @@ function Card2(props) {
       //transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
       initial={{ opacity: 0, x: -50 }} // Começa invisível e deslocado para a esquerda
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
-      className={`relative border border-transparent hover:border hover:border-solid rounded-[50%] m-2 py-7 px-7  align-middle text-center bg-[#3333336b] dark:bg-[#181717] 
+      className={`relative border border-transparent hover:border hover:border-solid rounded-[50%] m-2 sm:m-4 py-5 px-5 align-middle text-center bg-[#3333336b] dark:bg-[#181717] 
         ${props.className || ""}`}
       style={{
         transformStyle: "preserve-3d",

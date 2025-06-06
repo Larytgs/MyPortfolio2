@@ -8,7 +8,7 @@ import Button, { H1, Lista, Ul } from "./StyleF.jsx";
 import Header from "../Header/index.jsx";
 import Footer from "../Footer.jsx";
 // import Formulario from "../pages/formulario.jsx";
-//import StarryBackground from "../Star/StarryBackground.jsx";
+import StarryBackground from "../Star/StarryBackground.jsx";
 
 // Animação de digitar
 import { Typewriter } from "react-simple-typewriter";
@@ -33,7 +33,7 @@ function Firstmain() {
   return (
     <>
       <Header />
-      {/* <StarryBackground /> */}
+      <StarryBackground />
       <section className="relative grid grid-cols-12 mx-auto mb-6 p-5 mt-14">
         <section
           className="col-span-12 flex justify-between 
@@ -126,7 +126,7 @@ function Firstmain() {
             initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
             whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
             transition={{
-              duration: 1.5,
+              duration: 1,
               delay: 0.2,
               ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
             }}
