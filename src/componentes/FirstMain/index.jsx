@@ -179,14 +179,14 @@ function Firstmain() {
         {/* Botoes */}
         <motion.div
           className="col-span-12 mt-14 inline-block flex-wrap w-full items-center"
-          initial={{ opacity: 0, y: -30 }} // Começa invisível e deslocado para cima
-          whileInView={{ opacity: 1, y: 0 }} // Anima para visível e na posição certa
+          initial={{ opacity: 0, y: -30 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{
             duration: 1,
             delay: 0.2,
-            ease: [0.5, 0, 0, 1], // Aproxima da cubic-bezier(0.5, 0, 0, 1)
+            ease: [0.5, 0, 0, 1],
           }}
-          viewport={{ once: false }} // anima toda vez ao entrar na viewport>
+          viewport={{ once: true }}
         >
           <Ul>
             <Lista>

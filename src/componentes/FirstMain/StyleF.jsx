@@ -24,14 +24,22 @@ function Curso({ year, title, institution }) {
   return (
     <motion.li
       className="h-24 w-full max-w-[600px] border-l border-gray-800 pl-5 mb-7 sm:h-20"
-      initial={{ opacity: 0, y: -30 }}
-      whileInView={{ opacity: 1, y: 0 }}
+      initial={{
+        opacity: 0,
+        y: -30,
+      }} /* ele começa invisível e 30px acima de sua posição final. */
+      whileInView={{
+        opacity: 1,
+        y: 0,
+      }} /* ele anima de opacity: 0 para opacity: 1 e de y: -30 para y: 0, ou seja, aparece e desliza para baixo até sua posição final */
       transition={{
-        duration: 1,
-        delay: 0.5,
-        ease: [0.5, 0, 0, 1],
+        duration: 1 /* A animação leva 1 segundo para ser concluída */,
+        delay: 0.1 /* atraso de 0.1 segundos antes de a animação começar. */,
+        ease: [0.5, 0, 0, 1] /* suavização */,
       }}
-      viewport={{ once: false }}
+      viewport={{
+        once: true,
+      }} /* a animação seja disparada 1x que o elemento entra no viewport. Se fosse once: false, a animação aconteceria toda vez */
     >
       <div className="flex items-center relative">
         <span className="absolute bg-[var(--main-color)] w-10 h-7 flex justify-center items-center rounded-full -left-10 top-0">
