@@ -43,6 +43,7 @@ function Card2(props) {
     </motion.div>
   );
 }
+
 //H3 e P dos Cards do conhecimentos - Knowledge.jsx
 function H3(props) {
   return (
