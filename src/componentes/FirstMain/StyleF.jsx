@@ -29,9 +29,8 @@ function Ul(props) {
 function Lista(props) {
   return (
     <li
-      className="bg-white text-black m-0.4 flex items-center justify-center
-      lg:flex lg:flex-1
-      dark:bg-[#181717] dark:text-white"
+      className="bg-[#05060c] text-white m-0.4 flex items-center justify-center rounded-lg
+      lg:flex lg:flex-1"
     >
       {props.children}
     </li>
