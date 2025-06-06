@@ -10,7 +10,7 @@ const StarryBackground = () => {
       <div className="stars4"></div>
 
       {/* Muuuitas estrelas cadentes */}
-      {Array.from({ length: 10 }).map((_, i) => (
+      {Array.from({ length: 20 }).map((_, i) => (
         <div key={i} className="shooting-star"></div>
       ))}
       {/* Array.from({ length: 20 }) → cria 20 estrelas cadentes automaticamente.

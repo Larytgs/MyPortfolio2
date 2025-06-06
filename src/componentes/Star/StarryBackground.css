@@ -1,27 +1,26 @@
 .starry-bg {
-  position: fixed; /* ou absolute, p parar o rolamento bugado*/
   top: 0;
   left: 0;
   top: 0;
   left: 0;
   width: 100vw; /* Ocupa toda a largura da tela */
-  z-index: -1; /* Coloca o fundo atrás do conteúdo da página */
-  overflow: hidden; /* Evita scroll extra por estrelas */
+  z-index: 1; /* Coloca o fundo atrás do conteúdo da página */
 }
 
+/* Estrelas cadentes */
 .shooting-star {
-  position: absolute;
+  position: fixed; /* ou absolute */
   width: 1px;
   height: 90px;
   background: linear-gradient(
     -45deg,
-    rgba(255, 255, 255, 0.26),
-    rgba(255, 255, 255, 0)
+    rgba(255, 255, 255, 0.562),
+    rgba(255, 255, 255, 0.158)
   );
   top: -5%;
   left: 50%;
   right: -5%;
-  animation: shooting 5s linear infinite;
+  animation: shooting 8s linear infinite; /* Velocidade deles */
 }
 
 /* Animação de estrela cadente */
@@ -37,7 +36,6 @@
 }
 
 /* Estrelas fixas */
-
 .stars,
 .stars2,
 .stars3,
@@ -53,7 +51,7 @@
 
 /* Estrelas em camadas diferentes */
 .stars2 {
-  transform: scale(1.5);
+  transform: scale(2);
   opacity: 0.5;
 }
 
@@ -63,8 +61,8 @@
 }
 
 .stars4 {
-  transform: scale(3);
-  opacity: 0.5;
+  transform: scale(1.5);
+  opacity: 0.8;
 }
 
 /* Distribuindo as estrelas cadentes de forma mais dinâmica */
@@ -113,6 +111,6 @@
   animation-delay: 9s;
 }
 .shooting-star:nth-child(14) {
-  left: 7%;
+  left: 70%;
   animation-delay: 9s;
 }
