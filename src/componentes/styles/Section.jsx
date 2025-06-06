@@ -75,7 +75,7 @@ function Project(props) {
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
       className={`inline-grid grid-cols-1 mb-[5%] mt-2.5 cursor-auto
-      md:grid-cols-2 ${props.className}`}
+      md:grid-cols-2 z-10 ${props.className}`}
     >
       {props.children}
     </motion.div>
@@ -84,7 +84,7 @@ function Project(props) {
 //H3 dos Projetos - Projects.jsx
 function TitleH3(props) {
   return (
-    <h3 className="H3 absolute text-[#6ad0ff] text-2xl texto-sm/7 opacity-0 translate-x-[-50%] translate-y-[-80%] transform transition duration-250 ease-in-out">
+    <h3 className="H3 absolute text-[#6ad0ff] text-2xl texto-sm/7 opacity-0 translate-x-[-50%] translate-y-[-80%] transform transition duration-250 ease-in-out z-10">
       {props.children}
     </h3>
   );

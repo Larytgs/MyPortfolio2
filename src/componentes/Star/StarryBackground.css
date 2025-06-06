@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100vw; /* Ocupa toda a largura da tela */
-  z-index: 1; /* Coloca o fundo atrás do conteúdo da página */
+  z-index: -1; /* Coloca o fundo atrás do conteúdo da página */
 }
 
 /* Estrelas cadentes */
