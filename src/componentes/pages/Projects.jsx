@@ -20,7 +20,7 @@ function Projects() {
               </div>
               <a
                 className="card-title cursor-pointer"
-                href="http://agencia_de_sites.larytgs.com.br/"
+                href="https://larytgs.com.br/"
                 target="_blank"
               >
                 <TitleH3 className="H3">
