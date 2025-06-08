@@ -230,13 +230,11 @@ function Projects() {
               </a>
             </div>
             <div className="flex mt-2 mx-5 gap-2">
-              <div>
-                <img
-                  className="w-5"
-                  src="/img/logo/conhecimentos/html5-original.svg"
-                  alt=""
-                />
-              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/html5-original.svg"
+                alt=""
+              />
               <img
                 className="w-5"
                 src="/img/logo/conhecimentos/css3-original.svg"
@@ -271,13 +269,16 @@ function Projects() {
               </a>
             </div>
             <div className="flex mt-2 mx-5 gap-2">
-              <div>
-                <img
-                  className="w-5"
-                  src="/img/logo/conhecimentos/react-original.svg"
-                  alt=""
-                />
-              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/react-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/html5-original.svg"
+                alt=""
+              />
               <img
                 className="w-5"
                 src="/img/logo/conhecimentos/css3-original.svg"
@@ -312,13 +313,16 @@ function Projects() {
               </a>
             </div>
             <div className="flex mt-2 mx-5 gap-2">
-              <div>
-                <img
-                  className="w-5"
-                  src="/img/logo/conhecimentos/react-original.svg"
-                  alt=""
-                />
-              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/react-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/html5-original.svg"
+                alt=""
+              />
               <img
                 className="w-5"
                 src="/img/logo/conhecimentos/css3-original.svg"
