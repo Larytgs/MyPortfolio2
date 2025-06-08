@@ -260,7 +260,11 @@ function Projects() {
                   alt="Lista de Tarefas"
                 />
               </div>
-              <a className="card-title cursor-pointer" href="#" target="_blank">
+              <a
+                className="card-title cursor-pointer"
+                href="https://projeto-lista-de-tarefas-beta.vercel.app/"
+                target="_blank"
+              >
                 <TitleH3 className="H3">
                   Lista de Tarefas. <br /> <i>No Deploy</i>
                 </TitleH3>
