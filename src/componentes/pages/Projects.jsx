@@ -21,20 +21,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Site para divulgação. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://larytgs.com.br/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://larytgs.com.br/", "_blank")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/Agencia_de_sites_TGS/blob/master/index.html"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/Agencia_de_sites_TGS/blob/master/index.html"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -72,20 +76,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Conversão de moedas. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://larytgs.github.io/devConverter/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://larytgs.github.io/devConverter/")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/devConverter/blob/main/index.html"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/devConverter/blob/main/index.html"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -121,20 +129,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Site Biscoitos Decorados. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://site-biscoitos-decorados.vercel.app/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://site-biscoitos-decorados.vercel.app")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/site-biscoitos-decorados/blob/main/index.html"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/site-biscoitos-decorados/blob/main/index.html"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -172,20 +184,26 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Site de Veterinária. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://larytgs.github.io/Projeto-Veterinaria-Sao-Lourenco/"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://larytgs.github.io/Projeto-Veterinaria-Sao-Lourenco/"
+                      )
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/Projeto-Veterinaria-Sao-Lourenco/blob/master/index.html"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/Projeto-Veterinaria-Sao-Lourenco/blob/master/index.html"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -218,20 +236,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Réplica da Netflix. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://netflix-two-sand.vercel.app/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://netflix-two-sand.vercel.app/")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/Netflix/blob/main/index.html"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/Netflix/blob/main/index.html"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -269,20 +291,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Site para uma Mecânica. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://vitticarservice.com.br/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://vitticarservice.com.br/")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/VittiCarService/blob/main/index.html"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/VittiCarService/blob/main/index.html"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -320,20 +346,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Estilo Pinterest. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://fotografia-tgs.vercel.app/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://fotografia-tgs.vercel.app/")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/FotografiaTGS/blob/main/src/components/Header/Header.jsx"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/FotografiaTGS/blob/main/src/components/Header/Header.jsx"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -374,20 +404,26 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Lista de Tarefas. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://projeto-lista-de-tarefas-beta.vercel.app/"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://projeto-lista-de-tarefas-beta.vercel.app/"
+                      )
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/Projeto_ListaDeTarefas/blob/main/vite-project/src/componente/TodoApp.jsx"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/Projeto_ListaDeTarefas/blob/main/vite-project/src/componente/TodoApp.jsx"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
@@ -423,20 +459,24 @@ function Projects() {
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
                   Formulário. <br />
-                  <a
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://formulario-liard-sigma.vercel.app/"
-                    target="blank"
+                    onClick={() =>
+                      window.open("https://formulario-liard-sigma.vercel.app/")
+                    }
                   >
                     <i>Deploy</i>
-                  </a>
-                  <a
+                  </button>
+                  <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/Formulario/blob/main/vite-project/src/componentes/Formulario.jsx"
-                    target="blank"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/Formulario/blob/main/vite-project/src/componentes/Formulario.jsx"
+                      )
+                    }
                   >
                     <i>Code</i>
-                  </a>
+                  </button>
                 </TitleH3>
               </a>
             </div>
