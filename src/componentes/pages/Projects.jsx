@@ -28,18 +28,25 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  JS
-                </li>
-              </ul>
+
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/javascript-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -63,18 +70,24 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  JS
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/javascript-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -98,15 +111,19 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -130,18 +147,24 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  JS
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/javascript-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -165,18 +188,24 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  JS
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/javascript-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -200,18 +229,24 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  HTML5
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS3
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  JS
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/javascript-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -235,18 +270,24 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  React
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  Tailwindcss
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/react-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/tailwindcss-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
@@ -270,18 +311,19 @@ function Projects() {
                 </TitleH3>
               </a>
             </div>
-            <div>
-              <ul className="flex mt-2 mx-5 gap-2 text-[#797676]">
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  React
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  CSS
-                </li>
-                <li className="text-[0.8em] bg-[#00397fce] text-white p-1 px-2 rounded-lg">
-                  JSX
-                </li>
-              </ul>
+            <div className="flex mt-2 mx-5 gap-2">
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/react-original.svg"
+                  alt=""
+                />
+              </div>
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
             </div>
           </div>
 
