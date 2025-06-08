@@ -37,6 +37,9 @@ body {
   color: white;
   scroll-behavior: smooth; /*rolagem suave*/
   width: 100vw; /* 100% da largura da viewport */
+
+  scrollbar-width: thin; /*(para uma barra fina)*/
+  scrollbar-color: #070a11 rgb(33, 89, 117);
 }
 
 /*Remove o cursor padrão */
