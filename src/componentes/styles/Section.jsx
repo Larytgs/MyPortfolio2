@@ -75,7 +75,7 @@ function Project(props) {
       animate={{ opacity: 1, x: 0 }} // Anima para a posição normal
       transition={{ duration: 1.5, ease: "easeOut" }} // Duração e suavização da animação
       className={`inline-grid grid-cols-1 mb-[5%] mt-2.5 cursor-auto
-      md:grid-cols-2 z-10 ${props.className}`}
+      md:grid-cols-2 lg:grid-cols-3 z-10 ${props.className}`}
     >
       {props.children}
     </motion.div>
