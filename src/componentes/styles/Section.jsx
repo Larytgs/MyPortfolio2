@@ -90,4 +90,4 @@ function TitleH3(props) {
   );
 }
 export default Section;
-export { Text, SkillWrapper, Card2, H3, P, TitleH3, TitleH32, Project };
+export { Text, SkillWrapper, Card2, H3, P, TitleH3, Project };

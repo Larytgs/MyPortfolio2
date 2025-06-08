@@ -59,29 +59,78 @@ function Projects() {
             </div>
           </div>
 
-          {/* Site para uma Mecânica */}
+          {/* Conversão de moedas. */}
           <div className="flex-auto text-center my-3 sm:mx-3">
-            <div className="service-proj relative">
+            <div className="service-proj relative group">
               <div className="card-proj">
                 <img
                   className="rounded-2xl w-[500px]"
-                  src="/img/projetos/vittCarService.png"
-                  alt="vittCarService"
+                  src="/img/projetos/devConversorDeValores.png"
+                  alt="siteBiscoitosDecorados"
                 />
               </div>
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Site para uma Mecânica. <br />
+                  Conversão de moedas. <br />
                   <a
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://vitticarservice.com.br/"
+                    href="https://larytgs.github.io/devConverter/"
                     target="blank"
                   >
                     <i>Deploy</i>
                   </a>
                   <a
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/VittiCarService/blob/main/index.html"
+                    href="https://github.com/Larytgs/devConverter/blob/main/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
+                </TitleH3>
+              </a>
+            </div>
+            <div className="flex mt-2 mx-5 gap-2">
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/html5-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/javascript-original.svg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          {/* Site Biscoitos Decorados. */}
+          <div className="flex-auto text-center my-3 sm:mx-3">
+            <div className="service-proj relative group">
+              <div className="card-proj">
+                <img
+                  className="rounded-2xl w-[500px]"
+                  src="/img/projetos/siteBiscoitosDecorados.png"
+                  alt="siteBiscoitosDecorados"
+                />
+              </div>
+              <a className="card-title cursor-pointer" target="_blank">
+                <TitleH3 className="H3">
+                  Site Biscoitos Decorados. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://site-biscoitos-decorados.vercel.app/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/site-biscoitos-decorados/blob/main/index.html"
                     target="blank"
                   >
                     <i>Code</i>
@@ -156,57 +205,6 @@ function Projects() {
             </div>
           </div>
 
-          {/* Site Biscoitos Decorados. */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
-            <div className="service-proj relative group">
-              <div className="card-proj">
-                <img
-                  className="rounded-2xl w-[500px]"
-                  src="/img/projetos/siteBiscoitosDecorados.png"
-                  alt="siteBiscoitosDecorados"
-                />
-              </div>
-              <a className="card-title cursor-pointer" target="_blank">
-                <TitleH3 className="H3">
-                  Site Biscoitos Decorados. <br />
-                  <a
-                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://site-biscoitos-decorados.vercel.app/"
-                    target="blank"
-                  >
-                    <i>Deploy</i>
-                  </a>
-                  <a
-                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/site-biscoitos-decorados/blob/main/index.html"
-                    target="blank"
-                  >
-                    <i>Code</i>
-                  </a>
-                </TitleH3>
-              </a>
-            </div>
-            <div className="flex mt-2 mx-5 gap-2">
-              <div>
-                <img
-                  className="w-5"
-                  src="/img/logo/conhecimentos/html5-original.svg"
-                  alt=""
-                />
-              </div>
-              <img
-                className="w-5"
-                src="/img/logo/conhecimentos/css3-original.svg"
-                alt=""
-              />
-              <img
-                className="w-4"
-                src="/img/logo/conhecimentos/javascript-original.svg"
-                alt=""
-              />
-            </div>
-          </div>
-
           {/* Réplica da Netflix */}
           <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
@@ -258,29 +256,29 @@ function Projects() {
             </div>
           </div>
 
-          {/* Conversão de moedas. */}
+          {/* Site para uma Mecânica */}
           <div className="flex-auto text-center my-3 sm:mx-3">
-            <div className="service-proj relative group">
+            <div className="service-proj relative">
               <div className="card-proj">
                 <img
                   className="rounded-2xl w-[500px]"
-                  src="/img/projetos/devConversorDeValores.png"
-                  alt="siteBiscoitosDecorados"
+                  src="/img/projetos/vittCarService.png"
+                  alt="vittCarService"
                 />
               </div>
               <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Conversão de moedas. <br />
+                  Site para uma Mecânica. <br />
                   <a
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    href="https://larytgs.github.io/devConverter/"
+                    href="https://vitticarservice.com.br/"
                     target="blank"
                   >
                     <i>Deploy</i>
                   </a>
                   <a
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    href="https://github.com/Larytgs/devConverter/blob/main/index.html"
+                    href="https://github.com/Larytgs/VittiCarService/blob/main/index.html"
                     target="blank"
                   >
                     <i>Code</i>
@@ -289,11 +287,13 @@ function Projects() {
               </a>
             </div>
             <div className="flex mt-2 mx-5 gap-2">
-              <img
-                className="w-5"
-                src="/img/logo/conhecimentos/html5-original.svg"
-                alt=""
-              />
+              <div>
+                <img
+                  className="w-5"
+                  src="/img/logo/conhecimentos/html5-original.svg"
+                  alt=""
+                />
+              </div>
               <img
                 className="w-5"
                 src="/img/logo/conhecimentos/css3-original.svg"
