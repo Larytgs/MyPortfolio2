@@ -18,17 +18,26 @@ function Projects() {
                   alt="agencia_de_sites"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://larytgs.com.br/"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Site para divulgação. <br /> <i>Deploy</i>
+                  Site para divulgação. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://larytgs.com.br/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/Agencia_de_sites_TGS/blob/master/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
-
             <div className="flex mt-2 mx-5 gap-2">
               <div>
                 <img
@@ -60,13 +69,23 @@ function Projects() {
                   alt="vittCarService"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="http://vitticarservice.com.br"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Site para uma Mecânica. <br /> <i>Deploy</i>
+                  Site para uma Mecânica. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://vitticarservice.com.br/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/VittiCarService/blob/main/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
@@ -101,13 +120,23 @@ function Projects() {
                   alt="siteVeterinaria"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://larytgs.github.io/Projeto-Veterinaria-Sao-Lourenco/"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Site de Veterinária. <br /> <i>Deploy</i>
+                  Site de Veterinária. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://larytgs.github.io/Projeto-Veterinaria-Sao-Lourenco/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/Projeto-Veterinaria-Sao-Lourenco/blob/master/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
@@ -137,13 +166,23 @@ function Projects() {
                   alt="siteBiscoitosDecorados"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://site-biscoitos-decorados.vercel.app/"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Site Biscoitos Decorados. <br /> <i>Deploy</i>
+                  Site Biscoitos Decorados. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://site-biscoitos-decorados.vercel.app/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/site-biscoitos-decorados/blob/main/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
@@ -178,13 +217,23 @@ function Projects() {
                   alt="Réplica da Netflix"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://netflix-six-chi.vercel.app/manageProfiles/index.html"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Réplica da Netflix. <br /> <i>Deploy</i>
+                  Réplica da Netflix. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://netflix-two-sand.vercel.app/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/Netflix/blob/main/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
@@ -219,13 +268,23 @@ function Projects() {
                   alt="siteBiscoitosDecorados"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://larytgs.github.io/devConverter/"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Conversão de moedas. <br /> <i>Deploy</i>
+                  Conversão de moedas. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://larytgs.github.io/devConverter/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/devConverter/blob/main/index.html"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
@@ -258,13 +317,23 @@ function Projects() {
                   alt="Projeto Estilo Pinterest"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://fotografia-tgs.vercel.app/"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Estilo Pinterest. <br /> <i>Deploy</i>
+                  Estilo Pinterest. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://fotografia-tgs.vercel.app/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/FotografiaTGS/blob/main/src/components/Header/Header.jsx"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
@@ -302,13 +371,23 @@ function Projects() {
                   alt="Lista de Tarefas"
                 />
               </div>
-              <a
-                className="card-title cursor-pointer"
-                href="https://projeto-lista-de-tarefas-beta.vercel.app/"
-                target="_blank"
-              >
+              <a className="card-title cursor-pointer" target="_blank">
                 <TitleH3 className="H3">
-                  Lista de Tarefas. <br /> <i>No Deploy</i>
+                  Lista de Tarefas. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://projeto-lista-de-tarefas-beta.vercel.app/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/Projeto_ListaDeTarefas/blob/main/vite-project/src/componente/TodoApp.jsx"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
                 </TitleH3>
               </a>
             </div>
