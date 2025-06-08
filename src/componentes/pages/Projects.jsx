@@ -410,6 +410,55 @@ function Projects() {
             </div>
           </div>
 
+          {/* Formulário */}
+          <div className="flex-auto text-center my-3 sm:mx-3">
+            <div className="service-proj relative">
+              <div className="card-proj">
+                <img
+                  className="rounded-2xl w-[500px]"
+                  src="/img/projetos/formulario.png"
+                  alt="Lista de Tarefas"
+                />
+              </div>
+              <a className="card-title cursor-pointer" target="_blank">
+                <TitleH3 className="H3">
+                  Formulário. <br />
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    href="https://formulario-liard-sigma.vercel.app/"
+                    target="blank"
+                  >
+                    <i>Deploy</i>
+                  </a>
+                  <a
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    href="https://github.com/Larytgs/Formulario/blob/main/vite-project/src/componentes/Formulario.jsx"
+                    target="blank"
+                  >
+                    <i>Code</i>
+                  </a>
+                </TitleH3>
+              </a>
+            </div>
+            <div className="flex mt-2 mx-5 gap-2">
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/react-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/html5-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+            </div>
+          </div>
+
           {/* Novo projeto */}
           <div className="flex-auto text-center my-3 sm:mx-3">
             <div className="service-proj relative">
