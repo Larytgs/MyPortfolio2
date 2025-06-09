@@ -28,3 +28,5 @@ Após iniciar minha trajetória com um portfólio construído em HTML e CSS puro
 
 📬 Convido você a visitar e, se possível, compartilhar sua opinião:
 👉 https://lnkd.in/g4Mx9m7A
+
+<img src="public/img/portifolio.png"></img>
