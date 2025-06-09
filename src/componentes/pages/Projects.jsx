@@ -9,7 +9,7 @@ function Projects() {
 
         <Project className="mb-[-2%]">
           {/* Site para divulgar o meu trabalho. */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -64,7 +64,7 @@ function Projects() {
           </div>
 
           {/* Conversão de moedas. */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative group">
               <div className="card-proj">
                 <img
@@ -117,7 +117,7 @@ function Projects() {
           </div>
 
           {/* Site Biscoitos Decorados. */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative group">
               <div className="card-proj">
                 <img
@@ -172,7 +172,7 @@ function Projects() {
           </div>
 
           {/* Site de Veterinaria */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -224,7 +224,7 @@ function Projects() {
           </div>
 
           {/* Réplica da Netflix */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -279,7 +279,7 @@ function Projects() {
           </div>
 
           {/* Site para uma Mecânica */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -334,7 +334,7 @@ function Projects() {
           </div>
 
           {/* Projeto Estilo Pinterest */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -392,7 +392,7 @@ function Projects() {
           </div>
 
           {/* Gerenciador de Lista de Tarefas */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -447,7 +447,7 @@ function Projects() {
           </div>
 
           {/* Formulário */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img
@@ -510,7 +510,7 @@ function Projects() {
           </div>
 
           {/* Novo projeto */}
-          <div className="flex-auto text-center my-3 sm:mx-3">
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
               <div className="card-proj">
                 <img

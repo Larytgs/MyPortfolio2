@@ -111,12 +111,7 @@ body {
 }
 .service-proj:is(:hover, :focus-visible) .H3 {
   opacity: 1; /*mover o texto aparecer em cima da imagem*/
-  transform: translate(-50%, -200%);
-  width: 300px;
-}
-.service-proj:is(:hover, :focus-visible) .biscoitos {
-  opacity: 1; /*mover o texto aparecer em cima da imagem*/
-  transform: translate(-50%, -350%);
+  transform: translate(-50%, -180%);
   width: 300px;
 }
 .service-proj:is(:hover, :focus-visible) .card-proj {
@@ -135,12 +130,34 @@ textarea:-webkit-autofill {
   .cursor {
     display: none;
   }
-}
 
-@media all and (max-width: 400px) {
   .service-proj:is(:hover, :focus-visible) .H3 {
     opacity: 1; /*mover o texto aparecer em cima da imagem*/
-    transform: translate(-50%, -140%);
+    transform: translate(-50%, -180%);
+    width: 260px;
+    font-size: larger;
+  }
+}
+@media all and (max-width: 800px) {
+  .service-proj:is(:hover, :focus-visible) .H3 {
+    opacity: 1; /*mover o texto aparecer em cima da imagem*/
+    transform: translate(-50%, -220%);
+    width: 260px;
+    font-size: larger;
+  }
+}
+@media all and (max-width: 650px) {
+  .service-proj:is(:hover, :focus-visible) .H3 {
+    opacity: 1; /*mover o texto aparecer em cima da imagem*/
+    transform: translate(-50%, -200%);
+    width: 260px;
+    font-size: larger;
+  }
+}
+@media all and (max-width: 500px) {
+  .service-proj:is(:hover, :focus-visible) .H3 {
+    opacity: 1; /*mover o texto aparecer em cima da imagem*/
+    transform: translate(-50%, -180%);
     width: 260px;
     font-size: larger;
   }
