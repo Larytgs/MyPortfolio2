@@ -496,6 +496,11 @@ function Projects() {
                 src="/img/logo/conhecimentos/css3-original.svg"
                 alt=""
               />
+              <img
+                className="w-4"
+                src="/img/logo/conhecimentos/tailwindcss-original.svg"
+                alt=""
+              />
               {/* <img
                 className="w-5"
                 src="/public/img/logo/conhecimentos/postman-original.svg"
