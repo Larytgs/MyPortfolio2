@@ -333,6 +333,61 @@ function Projects() {
             </div>
           </div>
 
+          {/* Gerenciador de Lista de Tarefas */}
+          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
+            <div className="service-proj relative">
+              <div className="card-proj">
+                <img
+                  className="rounded-2xl w-[500px]"
+                  src="/img/projetos/Lista de tarefas.png"
+                  alt="Lista de Tarefas"
+                />
+              </div>
+              <a className="card-title cursor-pointer" target="_blank">
+                <TitleH3 className="H3">
+                  Lista de Tarefas. <br />
+                  <button
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
+                    onClick={() =>
+                      window.open(
+                        "https://projeto-lista-de-tarefas-beta.vercel.app/"
+                      )
+                    }
+                  >
+                    <i>Deploy</i>
+                  </button>
+                  <button
+                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/Larytgs/Projeto_ListaDeTarefas/blob/main/vite-project/src/componente/TodoApp.jsx"
+                      )
+                    }
+                  >
+                    <i>Code</i>
+                  </button>
+                </TitleH3>
+              </a>
+            </div>
+            <div className="flex mt-2 mx-5 gap-2">
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/react-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/html5-original.svg"
+                alt=""
+              />
+              <img
+                className="w-5"
+                src="/img/logo/conhecimentos/css3-original.svg"
+                alt=""
+              />
+            </div>
+          </div>
+
           {/* Projeto Estilo Pinterest */}
           <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
             <div className="service-proj relative">
@@ -386,61 +441,6 @@ function Projects() {
               <img
                 className="w-4"
                 src="/img/logo/conhecimentos/tailwindcss-original.svg"
-                alt=""
-              />
-            </div>
-          </div>
-
-          {/* Gerenciador de Lista de Tarefas */}
-          <div className="flex-auto text-center my-3 lg:my-5 sm:mx-3">
-            <div className="service-proj relative">
-              <div className="card-proj">
-                <img
-                  className="rounded-2xl w-[500px]"
-                  src="/img/projetos/Lista de tarefas.png"
-                  alt="Lista de Tarefas"
-                />
-              </div>
-              <a className="card-title cursor-pointer" target="_blank">
-                <TitleH3 className="H3">
-                  Lista de Tarefas. <br />
-                  <button
-                    className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
-                    onClick={() =>
-                      window.open(
-                        "https://projeto-lista-de-tarefas-beta.vercel.app/"
-                      )
-                    }
-                  >
-                    <i>Deploy</i>
-                  </button>
-                  <button
-                    className="text-sm px-2 py-1 rounded-lg text-white bg-black"
-                    onClick={() =>
-                      window.open(
-                        "https://github.com/Larytgs/Projeto_ListaDeTarefas/blob/main/vite-project/src/componente/TodoApp.jsx"
-                      )
-                    }
-                  >
-                    <i>Code</i>
-                  </button>
-                </TitleH3>
-              </a>
-            </div>
-            <div className="flex mt-2 mx-5 gap-2">
-              <img
-                className="w-5"
-                src="/img/logo/conhecimentos/react-original.svg"
-                alt=""
-              />
-              <img
-                className="w-5"
-                src="/img/logo/conhecimentos/html5-original.svg"
-                alt=""
-              />
-              <img
-                className="w-5"
-                src="/img/logo/conhecimentos/css3-original.svg"
                 alt=""
               />
             </div>
