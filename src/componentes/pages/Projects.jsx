@@ -24,7 +24,11 @@ function Projects() {
                   <button
                     className="text-sm px-2 py-1 rounded-lg text-white bg-black mr-1"
                     onClick={() =>
-                      window.open("https://larytgs.com.br/", "_blank")
+                      // window.open("https://larytgs.com.br/", "_blank")
+                      window.open(
+                        "https://agencia-de-sites-tgs.vercel.app/",
+                        "_blank"
+                      )
                     }
                   >
                     <i>Deploy</i>

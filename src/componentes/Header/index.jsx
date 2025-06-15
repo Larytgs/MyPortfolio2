@@ -47,7 +47,7 @@ function Header() {
 
         {/* Ícone do LinkedIn */}
         <a
-          href="https://www.linkedin.com/in/laryssa-tortato-7612961a9/"
+          href="https://www.linkedin.com/in/laryssa-tgs/"
           target="_blank"
           rel="noreferrer"
         >
