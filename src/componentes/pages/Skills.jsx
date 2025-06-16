@@ -126,11 +126,8 @@ function Skills() {
                 src="/img/logo/conhecimentos/html5-original.svg"
                 alt="html5"
               />
-              {/* <P>
-                HTML5 é uma linguagem de marcação de hipertexto, que usamos para
-                marcar os elementos da página e construí-la.
-              </P> */}
             </Card2>
+
             {/* CSS */}
             <Card2 className="hover:border-[#238CC8]">
               <img
@@ -138,11 +135,8 @@ function Skills() {
                 src="/img/logo/conhecimentos/css3-original.svg"
                 alt="css3"
               />
-              {/* <P>
-                CSS3 é uma linguagem de estilo usada para descrever a
-                apresentação dos elementos da página os estilizando.{" "}
-              </P> */}
             </Card2>
+
             {/* JS */}
             <Card2 className="hover:border-[#F0DB4F]">
               <img
@@ -150,12 +144,8 @@ function Skills() {
                 src="/img/logo/conhecimentos/javascript-original.svg"
                 alt="JS"
               />
-              {/* <P className="text-lg font-bold text-white max-md:text-md max-md:font-normal">
-                JavaScript é uma linguagem de programação interpretada usada no
-                desenvolvimento web para descrever funcionalidades e
-                comportamentos da página.
-              </P> */}
             </Card2>
+
             {/* React */}
             <Card2 className="hover:border-[#61DAFB]">
               <img
@@ -164,6 +154,7 @@ function Skills() {
                 alt="Postman"
               />
             </Card2>
+
             {/* Vite */}
             <Card2 className="hover:border-[#006BFF]">
               <img
@@ -172,6 +163,7 @@ function Skills() {
                 alt="Vite"
               />
             </Card2>
+
             {/* PHP */}
             <Card2 className="hover:border-[#777BB3]">
               <img
@@ -180,6 +172,7 @@ function Skills() {
                 alt="PHP"
               />
             </Card2>
+
             {/* MySQL */}
             <Card2 className="hover:border-[#00618A]">
               <img
@@ -188,31 +181,7 @@ function Skills() {
                 alt="MySQL"
               />
             </Card2>
-            {/* GIT */}
-            <Card2 className="hover:border-[#F34F29]">
-              <img
-                className="w-12 inline"
-                src="/img/logo/conhecimentos/git-original.svg"
-                alt="GIT"
-              />
-              {/* <P>
-                É um sistema de controle de versão distribuído amplamente
-                utilizado no desenvolvimento de software.
-              </P> */}
-            </Card2>
-            {/* Github */}
-            <Card2 className="hover:border-[#696969]">
-              <img
-                className="w-12 inline"
-                src="/img/logo/conhecimentos/github-original.png"
-                alt="GITHUB"
-              />
-              {/* <P>
-                O GitHub é uma plataforma online que permite armazenar,
-                compartilhar e colaborar em projetos de software. É uma
-                ferramenta muito utilizada por desenvolvedores.
-              </P> */}
-            </Card2>
+
             {/* Postman */}
             <Card2 className="hover:border-[#F37036]">
               <img
@@ -220,12 +189,8 @@ function Skills() {
                 src="/img/logo/conhecimentos/postman-original.svg"
                 alt="Postman"
               />
-              {/* <P>
-                É uma plataforma de desenvolvimento e teste de APIs. Ele é usado
-                por desenvolvedores para criar, testar, documentar e
-                compartilhar APIs.
-              </P> */}
             </Card2>
+
             {/* tailwindcss */}
             <Card2 className="hover:border-[#38BDF8]">
               <img
@@ -233,26 +198,62 @@ function Skills() {
                 src="/img/logo/conhecimentos/tailwindcss-original.svg"
                 alt="tailwindcss"
               />
-              {/* <P>
-                É um framework CSS voltado para utilidade, repleto de classes
-                como <strong>flex, pt-4, text-center e rotate-90</strong> que
-                podem ser compostas para criar qualquer design, diretamente na
-                sua marcação.
-              </P> */}
             </Card2>
-            {/* Vercel */}
-            <Card2 className="hover:border-[#F37036]">
+
+            {/* gimp */}
+            <Card2 className="hover:border-[#4b4b4b]">
               <img
                 className="w-12 inline"
-                src="/public/img/logo/conhecimentos"
+                src="/img/logo/conhecimentos/gimp-original.svg"
+                alt="gimp"
+              />
+            </Card2>
+
+            {/* canva */}
+            <Card2 className="hover:border-[#38BDF8]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/canva-original.svg"
+                alt="canva"
+              />
+            </Card2>
+
+            {/* Vercel */}
+            <Card2 className="relative hover:border-[#000000]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/vercel-original.svg"
                 alt="Vercel"
               />
-              {/* <P>
-                É uma plataforma de desenvolvimento e teste de APIs. Ele é usado
-                por desenvolvedores para criar, testar, documentar e
-                compartilhar APIs.
-              </P> */}
             </Card2>
+
+            {/* GIT */}
+            <Card2 className="hover:border-[#F34F29]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/git-original.svg"
+                alt="GIT"
+              />
+            </Card2>
+
+            {/* Github */}
+            <Card2 className="hover:border-[#696969]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/github-original.png"
+                alt="GITHUB"
+              />
+            </Card2>
+
+            {/* bpm */}
+            <Card2 className="hover:border-red-800">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/npm-original-wordmark.svg"
+                alt="npm"
+              />
+            </Card2>
+
             {/* VSCODE */}
             <Card2 className="hover:border-[#25AEF3]">
               <img
@@ -260,10 +261,6 @@ function Skills() {
                 src="/img/logo/conhecimentos/vscode-original.svg"
                 alt="VSCODE"
               />
-              {/* <P>
-                Visual Studio Code é um editor de código-fonte gratuito e de
-                código aberto desenvolvido pela Microsoft.
-              </P> */}
             </Card2>
           </div>
         </div>

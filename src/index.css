@@ -126,6 +126,21 @@ textarea:-webkit-autofill {
   transition: background-color 9999s ease-out 0s;
 }
 
+/* Conhecimentos */
+.tooltip {
+  position: absolute;
+  top: -2rem; /* Ajuste conforme necessário */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
 @media all and (max-width: 1115px) {
   .cursor {
     display: none;
