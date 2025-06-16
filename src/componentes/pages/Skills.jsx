@@ -240,6 +240,19 @@ function Skills() {
                 sua marcação.
               </P> */}
             </Card2>
+            {/* Vercel */}
+            <Card2 className="hover:border-[#F37036]">
+              <img
+                className="w-12 inline"
+                src="/public/img/logo/conhecimentos"
+                alt="Vercel"
+              />
+              {/* <P>
+                É uma plataforma de desenvolvimento e teste de APIs. Ele é usado
+                por desenvolvedores para criar, testar, documentar e
+                compartilhar APIs.
+              </P> */}
+            </Card2>
             {/* VSCODE */}
             <Card2 className="hover:border-[#25AEF3]">
               <img

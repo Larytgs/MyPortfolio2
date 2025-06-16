@@ -154,6 +154,21 @@ function Knowledge() {
                 sua marcação.
               </P> */}
             </Card2>
+            {/* Vercel */}
+            <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#38BDF8]">
+              <img
+                className="w-12 inline"
+                src="/img/logo/conhecimentos/tailwindcss-original.svg"
+                alt="Tailwindcss"
+              />
+              <H3>Tailwindcss</H3>
+              {/* <P>
+                É um framework CSS voltado para utilidade, repleto de classes
+                como <strong>flex, pt-4, text-center e rotate-90</strong> que
+                podem ser compostas para criar qualquer design, diretamente na
+                sua marcação.
+              </P> */}
+            </Card2>
             {/* VScode */}
             <Card2 className="relative border border-transparent hover:border hover:border-solid hover:border-[#25AEF3]">
               <img
