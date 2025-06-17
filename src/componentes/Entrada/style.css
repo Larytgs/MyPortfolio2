@@ -24,7 +24,14 @@
 .progress-fill {
   height: 100%;
   width: 0%;
-  background: linear-gradient(to left, #6ad0ff, #083d73, #6ad0ff, #083d73);
+  background: linear-gradient(
+    to left,
+    #083d73,
+    #6ad0ff,
+    #083d73,
+    #6ad0ff,
+    #083d73
+  );
   border-radius: 20px;
   transition: width 0.3s ease;
 }
