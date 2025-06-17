@@ -1,23 +1,27 @@
 import { useState } from "react";
 
-// Estilizaçoes:
-import { Presentation, Skills, Projects } from "../pages/index.jsx";
-import Button, { H1, Curso, Lista, Ul } from "./StyleF.jsx";
-
 import Header from "../Header/index.jsx";
+import { Presentation, Skills, Projects } from "../pages/index.jsx";
 import Footer from "../Footer/Footer.jsx";
-import StarryBackground from "../Animations/Star/StarryBackground.jsx";
 // import Formulario from "../pages/formulario.jsx";
 
-// Animação de digitação:
-import { Typewriter } from "react-simple-typewriter";
-// Animação para descer titulos/sections com delay:
-import { motion } from "framer-motion";
+// Estilizaçoes:
+import Button, { H1, Curso, Lista, Ul } from "./StyleF.jsx";
+
 // Animação de entrada:
 import Preloader from "../Animations/Entrada/Preloader.jsx";
 
+// Animação de digitação:
+import { Typewriter } from "react-simple-typewriter";
+
+// Animação para descer titulos/sections com delay:
+import { motion } from "framer-motion";
+
+// Animação das estrelas:
+import StarryBackground from "../Animations/Star/StarryBackground.jsx";
+
 function Firstmain() {
-  // Inicializando "presentation" como a seção visível
+  // Ele inicia com a "presentation" como a seção visível
   // A variável "visibleSection" irá armazenar a seção visível atualmente (ou null se nenhuma)
   const [visibleSection, setVisibleSection] = useState("presentation");
 
@@ -55,7 +59,7 @@ function Firstmain() {
                   </span>
                 </H1>
                 <br />
-                {/* Curriculo e "Transformando sonhos..." */}
+                {/* Curriculo */}
                 <div
                   className="block gap-2 text-center  
               lg:items-center lg:flex "
@@ -197,11 +201,6 @@ function Firstmain() {
                   Aprendizado
                 </Button>
               </Lista>
-              {/* <Lista>
-              <Button onClick={() => toggleSection("knowledge")}>
-                Conhecimentos
-              </Button>
-            </Lista> */}
               <Lista>
                 <Button onClick={() => toggleSection("projects")}>
                   Projetos
@@ -210,7 +209,7 @@ function Firstmain() {
             </Ul>
           </motion.div>
 
-          {/* Adiciona um espaçamento para evitar que o conteúdo fique coberto */}
+          {/* Adicionando um espaçamento para evitar que o conteúdo fique coberto */}
           <div className="col-span-12 mt-4 sm:mt-10">
             {visibleSection === "presentation" && <Presentation />}
             {visibleSection === "skills" && <Skills />}
