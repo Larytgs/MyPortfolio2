@@ -14,10 +14,7 @@ import StarryBackground from "../Star/StarryBackground.jsx";
 import { Typewriter } from "react-simple-typewriter";
 // Animação para descer titulos/sections com delay
 import { motion } from "framer-motion";
-
-// Icone para "educação"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
+// import Preloader from "../Entrada/Preloader.jsx";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
@@ -32,6 +29,7 @@ function Firstmain() {
 
   return (
     <>
+      {/* <Preloader /> */}
       <Header />
       <StarryBackground />
       <section className="relative grid grid-cols-12 mx-auto mb-6 p-5 mt-14">

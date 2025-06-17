@@ -42,33 +42,6 @@ body {
   scrollbar-color: #070a11 rgb(33, 89, 117);
 }
 
-/*Remove o cursor padrão */
-/* body {
-  cursor: wait;
-} */
-/* Estilizando o cursor personalizado */
-/* .cursor {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  cursor: help;
-  background-color: #00ffff80; /* Cor turquesa com transparência */
-/*position: absolute;
-  pointer-events: none; /* Evita interferência com cliques */
-/*transform: translate(-50%, -50%);
-  transition: transform 0.5s linear;
-  z-index: 1;
-} */
-
-@keyframes animate {
-  from {
-    background-position-x: 0;
-  }
-  to {
-    background-position-x: -550px; /* Ajuste conforme necessário */
-  }
-}
-
 /*Firstmain.jsx*/
 .minhaft {
   border-radius: 20% 10px;
@@ -88,22 +61,15 @@ body {
   }
 }
 
-/* .card2::before,
-.card2::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  width: calc(100% + 1px);
-  height: calc(100% + 1px);
-  border-radius: 50%;
-  background: linear-gradient(
-    45deg,
-    var(--dark-color),
-    var(--dark-color),
-    var(--main-color)
-  );
-  animation: loading 6s linear infinite;
-} */
+/* Animação para o meu nome completo */
+@keyframes animate {
+  from {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: -550px; /* Ajuste conforme necessário */
+  }
+}
 
 /*H3 dos Projetos - Projects.jsx*/
 .card-title {
