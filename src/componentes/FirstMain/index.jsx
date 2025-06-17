@@ -6,7 +6,7 @@ import Button, { H1, Curso, Lista, Ul } from "./StyleF.jsx";
 
 import Header from "../Header/index.jsx";
 import Footer from "../Footer/Footer.jsx";
-import StarryBackground from "../Star/StarryBackground.jsx";
+import StarryBackground from "../Animations/Star/StarryBackground.jsx";
 // import Formulario from "../pages/formulario.jsx";
 
 // Animação de digitação:
@@ -14,7 +14,7 @@ import { Typewriter } from "react-simple-typewriter";
 // Animação para descer titulos/sections com delay:
 import { motion } from "framer-motion";
 // Animação de entrada:
-import Preloader from "../Entrada/Preloader.jsx";
+import Preloader from "../Animations/Entrada/Preloader.jsx";
 
 function Firstmain() {
   // Inicializando "presentation" como a seção visível
