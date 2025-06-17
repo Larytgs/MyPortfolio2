@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react"; // Importa React e hooks: useState para estados, useEffect para efeitos colaterais (ex.: timers)
-import "./style.css"; // Importa arquivo CSS personalizado para estilizar o preloader (ex.: cores e tamanhos da barra de progresso)
+import { useState, useEffect } from "react";
+import "./style.css";
 
 // Define o componente Preloader, que aceita 'children' (o conteúdo principal a ser exibido após o carregamento)
 const Preloader = ({ children }) => {
