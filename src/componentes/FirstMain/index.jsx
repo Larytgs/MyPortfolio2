@@ -57,12 +57,12 @@ function Firstmain() {
                 <br />
                 {/* Curriculo e "Transformando sonhos..." */}
                 <div
-                  className="block gap-4 text-center  
-              lg:items-center lg:flex"
+                  className="block gap-2 text-center  
+              lg:items-center lg:flex "
                 >
                   <a
                     className="inline-flex gap-2 bg-[#181717] p-3 text-center rounded-xl
-                   md:transition-transform md:duration-500 md:hover:scale-110 dark:text-white"
+                   md:transition-transform md:duration-500 md:hover:scale-110 lg:ml-4 dark:text-white"
                     href="/img/CurriculoLaryssa.pdf"
                     target="_blank"
                   >

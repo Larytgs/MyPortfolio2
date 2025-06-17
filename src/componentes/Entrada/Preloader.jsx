@@ -23,7 +23,7 @@ const Preloader = ({ children }) => {
         }
         return prev + 1; // Incrementa progresso em 1 (ex.: 1%, 2%, ..., 100%)
       });
-    }, 30); // Intervalo de 15ms define a velocidade da animação
+    }, 25); // Intervalo de 15ms define a velocidade da animação
 
     return () => clearInterval(interval); // Limpa o intervalo quando o componente desmonta, evitando vazamentos de memória
   }, []); // Array vazio faz o useEffect rodar apenas uma vez, ao montar
@@ -33,16 +33,18 @@ const Preloader = ({ children }) => {
       {!isLoaded && ( // Mostra o preloader se isLoaded for false
         <div
           id="preloader"
-          className="fixed inset-0 flex items-center justify-center bg-white z-50" // Preloader cobre a tela, centraliza conteúdo, fundo branco, alta prioridade (z-50)
+          className="fixed inset-0 flex flex-col items-center justify-center bg-white z-50" // Preloader cobre a tela, centraliza conteúdo, fundo branco, alta prioridade (z-50)
         >
           <div className="w-64 h-2 rounded overflow-hidden">
             {" "}
             {/* Contêiner da barra de progresso, 64 unidades de largura, 2 de altura, bordas arredondadas */}
             <div
-              className="progress-fill h-full bg-blue-500 transition-all duration-150" // Barra de preenchimento, altura total, cor azul, transição suave
+              className="progress-fill h-full transition-all duration-150" // Barra de preenchimento, altura total, cor azul, transição suave
               style={{ width: `${progress}%` }} // Largura da barra muda dinamicamente com base no progresso
             ></div>
           </div>
+          <p className="mt-2 text-[#083d73] text-sm">Carregando...</p>{" "}
+          {/* Legenda 'Carregando...' abaixo da barra, com margem superior, texto cinza e tamanho pequeno */}
         </div>
       )}
       {isLoaded && ( // Mostra o conteúdo (children) quando isLoaded for true
