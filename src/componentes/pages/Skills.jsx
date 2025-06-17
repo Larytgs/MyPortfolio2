@@ -245,7 +245,7 @@ function Skills() {
               />
             </Card2>
 
-            {/* bpm */}
+            {/* npm */}
             <Card2 className="hover:border-red-800">
               <img
                 className="w-12 inline"
