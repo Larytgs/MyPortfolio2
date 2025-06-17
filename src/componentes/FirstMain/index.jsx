@@ -5,7 +5,7 @@ import { Presentation, Skills, Projects } from "../pages/index.jsx";
 import Button, { H1, Curso, Lista, Ul } from "./StyleF.jsx";
 
 import Header from "../Header/index.jsx";
-import Footer from "../Footer.jsx";
+import Footer from "../Footer/Footer.jsx";
 import StarryBackground from "../Star/StarryBackground.jsx";
 // import Formulario from "../pages/formulario.jsx";
 
